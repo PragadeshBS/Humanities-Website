@@ -11,8 +11,7 @@ function App() {
       <h6>HEADER</h6>
       Navbar:
       <nav>
-        <Link to="/">Home</Link>{" "}
-        <Link to="/faculty/teaching">Teaching</Link>{" "}
+        <Link to="/">Home</Link> <Link to="/faculty/teaching">Teaching</Link>{" "}
         <Link to="/faculty/non-teaching">Non-Teaching</Link>
       </nav>
       <Outlet />
