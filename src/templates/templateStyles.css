@@ -1,3 +1,21 @@
 .logo-img{
     max-width: 75px;
 }
+.top{
+    display: flex;
+    align-items: center;
+}
+.title{
+    display: flex;
+    flex-direction: column;
+}
+
+.accent{
+    background-color: #182628;
+    color: white;
+}
+
+.nav-link{
+    margin: 0 10px;
+    color: white !important;
+}
