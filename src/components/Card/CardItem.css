@@ -17,3 +17,16 @@
 .phone h1 {
   font-size: 20px;
 }
+@media only screen and (max-width: 484px) {
+  .card-item {
+    width: 100%;
+
+    justify-content: center;
+  }
+  .contact-info .card-item {
+    justify-content: start;
+  }
+  .contact-info {
+    margin: auto;
+  }
+}

@@ -7,13 +7,18 @@ function CardContent(props) {
       <CardItem name={staff.name} class="faculty-name" />
       <CardItem name={staff.designation} class="faculty-designation" />
       <hr></hr>
-      <CardItem
-        name={staff.area_of_interest}
-        icon="star"
-        class="area-of-interest"
-      />
-      <CardItem name={staff.mail} icon="mail" class="mail" />
-      <CardItem name={staff.phone} icon="phone" class="phone" />
+      <div className="contact-info">
+        <div></div>
+        <div>
+          <CardItem
+            name={staff.area_of_interest}
+            icon="star"
+            class="area-of-interest"
+          />
+          <CardItem name={staff.mail} icon="mail" class="mail" />
+          <CardItem name={staff.phone} icon="phone" class="phone" />
+        </div>
+      </div>
     </div>
   );
 }
