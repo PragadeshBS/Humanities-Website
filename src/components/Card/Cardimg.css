@@ -1,0 +1,17 @@
+.card-img img {
+  width: 100px;
+}
+.card-img {
+  width: 100px;
+}
+.card-img {
+  padding-top: 40px;
+}
+@media only screen and (max-width: 484px) {
+  .card-img {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+  }
+}

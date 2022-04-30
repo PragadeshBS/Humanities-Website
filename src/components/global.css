@@ -1,0 +1,33 @@
+.activeType {
+  color: grey;
+  cursor: text !important;
+}
+.activeType:hover {
+  color: grey;
+}
+.inactiveType {
+  color: rgb(2, 0, 0);
+}
+.inactiveType:hover {
+  font-size: 23px;
+}
+.staff-type {
+  text-align: left;
+  list-style-type: none;
+}
+.staff-type li {
+  margin: 20px auto;
+  cursor: pointer;
+  font-size: 25px;
+}
+img {
+  border-radius: 10px;
+}
+.title {
+  text-align: center;
+}
+@media only screen and (max-width: 760px) {
+  .staff-type {
+    text-align: center;
+  }
+}

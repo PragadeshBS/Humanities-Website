@@ -1,12 +1,22 @@
 import { useEffect } from "react";
-
-function NonTeaching() {
+import { getdetails } from "../../data/nonteaching-faculty";
+import Title from "../../components/Title";
+import Card from "../../components/Card/Card";
+export default function NonTeaching() {
   useEffect(() => {
-    document.title = "Nonteching staf";
+    document.title = "NonTeaching staff";
   }, []);
+  var data = getdetails();
   return (
-    <h1>NonTeaching staff</h1>
-  )
+    <div className="mt-3 mb-5">
+      <Title text="NonTeaching Staff" />
+      <div className="row">
+        <div className="col-sm-12">
+          {data.map((data, index) => (
+            <Card content={data} key={index} />
+          ))}
+        </div>
+      </div>
+    </div>
+  );
 }
-
-export default NonTeaching  

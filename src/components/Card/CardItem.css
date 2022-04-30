@@ -1,0 +1,32 @@
+.faculty-name h1 {
+  font-size: 30px;
+}
+.faculty-designation h1 {
+  font-size: 20px;
+}
+.card-item {
+  display: flex;
+  flex-direction: row;
+}
+.area-of-interest h1 {
+  font-size: 20px;
+}
+.mail h1 {
+  font-size: 20px;
+}
+.phone h1 {
+  font-size: 20px;
+}
+@media only screen and (max-width: 484px) {
+  .card-item {
+    width: 100%;
+
+    justify-content: center;
+  }
+  .contact-info .card-item {
+    justify-content: start;
+  }
+  .contact-info {
+    margin: auto;
+  }
+}
