@@ -19,7 +19,7 @@ const Header = () => {
         </div>
       </div>
       {/* Navbar */}
-      <nav className="navbar navbar-expand-lg navbar-dark accent">
+      <nav className="navbar navbar-expand-lg navbar-dark accent-bg">
         <div className="container-fluid">
           <button
             className="navbar-toggler"
@@ -37,6 +37,11 @@ const Header = () => {
               <li className="nav-item">
                 <Link className="nav-link" aria-current="page" to="/">
                   Home
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link className="nav-link" aria-current="page" to="/hod">
+                  HOD Desk
                 </Link>
               </li>
               <li className="nav-item dropdown">
@@ -62,6 +67,41 @@ const Header = () => {
                     </Link>
                   </li>
                 </ul>
+              </li>
+              <li className="nav-item">
+                <Link className="nav-link" aria-current="page" to="/infrastructure">
+                  Infrastructure
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link className="nav-link" aria-current="page" to="/courses">
+                  Courses
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link className="nav-link" aria-current="page" to="/students">
+                  Students
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link className="nav-link" aria-current="page" to="/research">
+                  Research
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link className="nav-link" aria-current="page" to="characterization-facilities">
+                  Characterization Facilities
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link className="nav-link" aria-current="page" to="annual-report">
+                  Annual Report
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link className="nav-link" aria-current="page" to="sponsors">
+                  Sponsors
+                </Link>
               </li>
             </ul>
           </div>

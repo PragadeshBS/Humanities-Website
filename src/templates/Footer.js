@@ -1,6 +1,6 @@
 const Footer = () => {
   return (
-    <footer className="accent">
+    <footer className="accent-bg">
       <div className="container py-3">
         <div>
           <div className="display-6 my-2">Humanities &#38; Applied Sciences</div>

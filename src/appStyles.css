@@ -2,3 +2,7 @@
     display: block;
     margin: 0 auto;
 }
+.accent-bg{
+    background-color: #182628;
+    color: white;
+}
