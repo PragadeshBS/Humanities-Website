@@ -1,0 +1,13 @@
+#labImage{
+    border-radius: 25px;
+}
+
+#char-content{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#text-section{
+    flex-grow: 1;
+}

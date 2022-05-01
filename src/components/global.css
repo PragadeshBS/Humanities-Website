@@ -23,9 +23,6 @@
 img {
   border-radius: 10px;
 }
-.title {
-  text-align: center;
-}
 @media only screen and (max-width: 760px) {
   .staff-type {
     text-align: center;

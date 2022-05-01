@@ -8,7 +8,7 @@ export default function NonTeaching() {
   }, []);
   var data = getdetails();
   return (
-    <div className="mt-3 mb-5">
+    <div className="mb-5">
       <Title text="NonTeaching Staff" />
       <div className="row">
         <div className="col-sm-12">
