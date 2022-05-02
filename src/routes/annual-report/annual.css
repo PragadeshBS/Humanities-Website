@@ -1,0 +1,16 @@
+td,th{
+    padding:7px;
+}
+
+.nesteditem{
+    background-color: #E0E0E0;
+}
+
+#title{
+    color:blue;
+}
+
+.btn{
+    border-radius:15px;
+    width:99%;
+}
