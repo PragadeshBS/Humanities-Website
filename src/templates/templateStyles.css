@@ -1,9 +1,10 @@
 .logo-img {
-  max-width: 75px;
+  max-width: 100px;
 }
 .top {
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 .title {
   display: flex;
@@ -31,4 +32,17 @@
 
 #atom-icon{
   filter: invert(100);
+}
+
+@media only screen and (max-width: 576px) {
+  .title{
+    order: -1;
+  }
+  .top{
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .logo-img{
+    max-width: 60px;
+  }
 }

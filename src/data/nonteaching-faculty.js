@@ -5,7 +5,7 @@ var data = [
     area_of_interest: "Machine Learning",
     mail: "abc@mail.com",
     phone: "2321344531",
-    img: "/faculty/auLogo.png",
+    img: "/static/images/faculty/auLogo.png",
   },
   {
     name: "xyz",
@@ -13,7 +13,7 @@ var data = [
     area_of_interest: "Machine Learning",
     mail: "abc@mail.com",
     phone: "2321344531",
-    img: "/faculty/auLogo.png",
+    img: "/static/images/faculty/auLogo.png",
   },
 ];
 

@@ -1,5 +1,4 @@
 import Title from "../../components/Title";
-import LabImage from "../../static/images/characterization/img1.jpg";
 import "./styles.css";
 
 const CharacterizationFacilities = () => {
@@ -52,7 +51,12 @@ const CharacterizationFacilities = () => {
           </div>
         </div>
         <div className="flex-item" id="image-section">
-          <img src={LabImage} alt="labImage" id="labImage" className="img-fluid p-3" />
+          <img
+            src="/static/images/characterization/img1.jpg"
+            alt="labImage"
+            id="labImage"
+            className="img-fluid p-3"
+          />
         </div>
       </div>
     </div>

@@ -1,5 +1,4 @@
 import { useEffect } from "react";
-import imageSlides from "../static/images/home/slides.gif"
 
 function Home() {
   useEffect(() => {
@@ -10,7 +9,7 @@ function Home() {
       <div className="display-6 text-center mt-3">
         Welcome to the Department of Applied Sciences and Humanities
       </div>
-      <img src={imageSlides} className="img-fluid slides" alt="slides" />
+      <img src="static/images/home/slides.gif" className="img-fluid slides" alt="slides" />
       <p className="mb-3">
         The Department of Applied Sciences & Humanities has the following
         disciplines:
