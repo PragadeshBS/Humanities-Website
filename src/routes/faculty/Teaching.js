@@ -2,7 +2,7 @@ import { useEffect } from "react";
 import { getdetails } from "../../data/faculty";
 import { useState } from "react";
 import Title from "../../components/Title";
-import SideBar from "../../components/sidebar/Sidebar";
+import SideBar from "../../components/sideBsar/Sidebar";
 import Cards from "../../components/card/Cards";
 export default function Teaching() {
   useEffect(() => {
