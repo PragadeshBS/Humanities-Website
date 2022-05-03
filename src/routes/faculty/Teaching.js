@@ -3,7 +3,7 @@ import { getdetails } from "../../data/faculty";
 import { useState } from "react";
 import Title from "../../components/Title";
 import SideBar from "../../components/sideBsar/Sidebar";
-import Cards from "../../components/card/Cards";
+import Cards from "../../components/carsd/Cards";
 export default function Teaching() {
   useEffect(() => {
     document.title = "teaching staff";
