@@ -5,7 +5,6 @@ import App from "./App";
 import Home from "./routes/Home";
 import Teaching from "./routes/faculty/Teaching";
 import NonTeaching from "./routes/faculty/NonTeaching";
-import Test from "./routes/test";
 import Hod from "./routes/hod";
 import Infrastructure from "./routes/infrastructure";
 import Courses from "./routes/courses";
@@ -35,7 +34,6 @@ root.render(
         />
         <Route path="annual-report" element={<AnnualReport />} />
         {/* temp page */}
-        <Route path="test" element={<Test />} />
       </Route>
       <Route
         path="*"
