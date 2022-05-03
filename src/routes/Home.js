@@ -11,7 +11,7 @@ function Home() {
       </div>
       <img src="static/images/home/slides.gif" className="img-fluid slides" alt="slides" />
       <p className="mb-3">
-        The Department of Applied Sciences & Humanities has the following
+        The Department of Applied Sciences &amp; Humanities has the following
         disciplines:
       </p>
       <ol>

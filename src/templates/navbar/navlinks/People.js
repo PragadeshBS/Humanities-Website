@@ -7,7 +7,7 @@ const People = () => {
         href="#"
         id="menu"
         data-bs-toggle="dropdown"
-        className="nav-link dropdown-toggle"
+        className="nav-link navbarLink dropdown-toggle"
         data-bs-display="static"
       >
         People
@@ -44,14 +44,14 @@ const People = () => {
           </a>
           <ul className="dropdown-menu">
             <li>
-              <a href="#" className="dropdown-item">
+              <Link to="/students/mphil/math" className="dropdown-item">
                 M.Phil Mathematics
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="#" className="dropdown-item">
+              <Link to="/students/msc/math" className="dropdown-item">
                 M.Sc Mathemathics
-              </a>
+              </Link>
             </li>
           </ul>
         </li>

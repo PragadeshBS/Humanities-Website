@@ -7,7 +7,7 @@ const Facilities = () => {
         href="#"
         id="menu"
         data-bs-toggle="dropdown"
-        className="nav-link dropdown-toggle"
+        className="nav-link navbarLink dropdown-toggle"
         data-bs-display="static"
       >
         Facilities

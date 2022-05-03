@@ -9,11 +9,11 @@ import Test from "./routes/test";
 import Hod from "./routes/hod";
 import Infrastructure from "./routes/infrastructure";
 import Courses from "./routes/courses";
-import Students from "./routes/students";
 import Research from "./routes/research";
 import CharacterizationFacilities from "./routes/char-facilities";
 import AnnualReport from "./routes/annual-report";
-import Sponsors from "./routes/sponsors"
+import MPhilMath from "./routes/students/mphil/math/MPhilMath";
+import MScMath from "./routes/students/msc/math/MScMath";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -26,14 +26,14 @@ root.render(
         <Route path="faculty/non-teaching" element={<NonTeaching />}></Route>
         <Route path="infrastructure" element={<Infrastructure />} />
         <Route path="courses" element={<Courses />} />
-        <Route path="students" element={<Students />} />
+        <Route path="students/mphil/math" element={<MPhilMath />} />
+        <Route path="students/msc/math" element={<MScMath />} />
         <Route path="research" element={<Research />} />
         <Route
           path="characterization-facilities"
           element={<CharacterizationFacilities />}
-        />        
+        />
         <Route path="annual-report" element={<AnnualReport />} />
-        <Route path="sponsors" element={<Sponsors />} />
         {/* temp page */}
         <Route path="test" element={<Test />} />
       </Route>

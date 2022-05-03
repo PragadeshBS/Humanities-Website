@@ -11,9 +11,8 @@
   flex-direction: column;
 }
 
-.nav-link {
-  margin: 0 10px;
-  color: white !important;
+.navbarLink {
+  color: white  !important;
 }
 
 .dropdown-submenu {
@@ -30,19 +29,19 @@
   display: block;
 }
 
-#atom-icon{
+#atom-icon {
   filter: invert(100);
 }
 
 @media only screen and (max-width: 576px) {
-  .title{
+  .title {
     order: -1;
   }
-  .top{
+  .top {
     flex-wrap: wrap;
     justify-content: space-around;
   }
-  .logo-img{
+  .logo-img {
     max-width: 60px;
   }
 }

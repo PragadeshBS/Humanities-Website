@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import { getdetails } from "../../data/nonteaching-faculty";
 import Title from "../../components/Title";
-import Card from "../../components/Card/Card";
+import Card from "../../components/card/Card";
 export default function NonTeaching() {
   useEffect(() => {
     document.title = "NonTeaching staff";

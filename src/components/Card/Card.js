@@ -1,4 +1,4 @@
-import "./Card.css";
+import "./cardStyles/Card.css";
 import Cardimg from "./Cardimg";
 import CardContent from "./CardContent";
 function Card(props) {

@@ -1,4 +1,4 @@
-import "./CardIcon.css";
+import "./cardStyles/CardIcon.css";
 function CardIcons(props) {
   if (props.name === "star") {
     return (

@@ -1,4 +1,4 @@
-import "./Cardimg.css";
+import "./cardStyles/Cardimg.css";
 function Cardimg(props) {
   return (
     <div className="card-img">

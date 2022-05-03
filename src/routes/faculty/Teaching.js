@@ -2,8 +2,8 @@ import { useEffect } from "react";
 import { getdetails } from "../../data/faculty";
 import { useState } from "react";
 import Title from "../../components/Title";
-import SideBar from "../../components/SideBar/Sidebar";
-import Content from "../../components/Content";
+import SideBar from "../../components/sidebar/Sidebar";
+import Cards from "../../components/card/Cards";
 export default function Teaching() {
   useEffect(() => {
     document.title = "teaching staff";
@@ -19,7 +19,7 @@ export default function Teaching() {
       <div className="row">
         <SideBar views={data} curView={curSub} changeCurView={changecurSub} />
         <div className="col-sm-12 col-md-9">
-          <Content staffs={curSub.staff} />
+          <Cards staffs={curSub.staff} />
         </div>
       </div>
     </div>

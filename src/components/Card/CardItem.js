@@ -1,5 +1,5 @@
 import CardIcons from "./CardIcons";
-import "./CardItem.css";
+import "./cardStyles/CardItem.css";
 function CardItem(props) {
   return (
     <div className={"card-item " + props.class}>

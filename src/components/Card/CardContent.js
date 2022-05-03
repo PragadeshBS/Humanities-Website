@@ -1,5 +1,5 @@
 import CardItem from "./CardItem";
-import "./CardContent.css";
+import "./cardStyles/CardContent.css";
 function CardContent(props) {
   var staff = props.content;
   return (

@@ -1,0 +1,14 @@
+.tab-list{
+    list-style-type: none;
+}
+.tab-list li{
+    display: inline;
+}
+.tab-link{
+    cursor: pointer;    
+    text-decoration: none;
+}
+#year-select{
+    display: block;
+    margin: 0 auto;
+}
