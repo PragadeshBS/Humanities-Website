@@ -22,6 +22,7 @@ const CharacterizationFacilities = () => {
                   href="https://mitindia.edu/images/mit/Departments/science_humanities/SEM_Rate.pdf"
                   className="text-decoration-none"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   <span className="pe-3">Fees </span>
                   <i className="text-dark bi bi-filetype-pdf"></i>
@@ -32,6 +33,7 @@ const CharacterizationFacilities = () => {
                   href="https://mitindia.edu/images/SEM_FORM.pdf"
                   className="text-decoration-none"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   <span className="pe-3">Form</span>
                   <i className="text-dark bi bi-filetype-pdf"></i>
