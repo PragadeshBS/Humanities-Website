@@ -1,0 +1,62 @@
+.hod-page p {
+  text-align: center;
+}
+.hod-page .hod-body {
+  display: flex;
+  flex-direction: row;
+}
+.hod-image img {
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
+}
+.hod-image {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.hod-message {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 15px;
+  line-height: 220%;
+  background-color: rgb(224, 201, 166, 0.7);
+  border-radius: 10px;
+}
+.hod-message .sign {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+@media only screen and (max-width: 994px) {
+  .hod-page .hod-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .hod-image {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 3px;
+  }
+}
+@media only screen and (max-width: 380px) {
+  .hod-image img {
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+  }
+}
+@media only screen and (max-width: 292px) {
+  .hod-image img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+  }
+  .hod-message {
+    line-height: 160%;
+  }
+  .hod-message .message {
+    font-size: 14px;
+  }
+}
