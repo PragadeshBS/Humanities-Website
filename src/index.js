@@ -13,6 +13,7 @@ import CharacterizationFacilities from "./routes/char-facilities";
 import AnnualReport from "./routes/annual-report";
 import MPhilMath from "./routes/students/mphil/math/MPhilMath";
 import MScMath from "./routes/students/msc/math/MScMath";
+import VisionMission from "./routes/vision-mission/Index";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -21,6 +22,7 @@ root.render(
       <Route path="/" element={<App />}>
         <Route index element={<Home />} />
         <Route path="hod" element={<Hod />} />
+        <Route path="vision-mission" element={<VisionMission />} />
         <Route path="faculty/teaching" element={<Teaching />}></Route>
         <Route path="faculty/non-teaching" element={<NonTeaching />}></Route>
         <Route path="infrastructure" element={<Infrastructure />} />
