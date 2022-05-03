@@ -20,9 +20,6 @@
   cursor: pointer;
   font-size: 25px;
 }
-img {
-  border-radius: 10px;
-}
 @media only screen and (max-width: 760px) {
   .staff-type {
     text-align: center;

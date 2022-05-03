@@ -57,7 +57,7 @@ const CharacterizationFacilities = () => {
             src="/static/images/characterization/img1.jpg"
             alt="labImage"
             id="labImage"
-            className="img-fluid p-3"
+            className="img-fluid"
           />
         </div>
       </div>
