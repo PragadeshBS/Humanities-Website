@@ -1,5 +1,6 @@
 import "../../components/global.css";
-const SideBar = (props) => {
+
+export default function SideBar(props) {
   var data = props.views;
   var curdept = props.curView;
   var curid = curdept.id;
@@ -25,5 +26,4 @@ const SideBar = (props) => {
       </ul>
     </div>
   );
-};
-export default SideBar;
+}
