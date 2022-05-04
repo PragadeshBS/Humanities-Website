@@ -11,7 +11,7 @@ const AnnualReport = () => {
           </div>
           <div className="col-2">
           <a href={annualReport} download>
-          <button class="btn btn-outline-primary" type="submit"><i class="fa fa-download" aria-hidden="true"></i> Download</button>
+          <button class="btn btn-outline-primary" type="submit"><i class="fa fa-download" aria-hidden="true"></i></button>
           </a>
           </div>
           <div class="accordion" id="accordionPanelsStayOpenExample">
@@ -23,7 +23,7 @@ const AnnualReport = () => {
                 </button>
               </h2>
               <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
-                <div className="m-5">
+                <div className="table-responsive m-5">
                   <table class="table table-bordered mt-3 mb-3">
                     <tr><th>Sl No</th><th>Name of the faculty</th><th>Designation</th><th>Email</th><th>Field of spectification</th></tr>
                     <tr><td>1</td><td>Dr.V.Ponnusamy</td><td>Professor</td><td>vps@annauniv.edu,ponnu@mitindia.edu</td><td>Luminescence,
@@ -50,7 +50,7 @@ const AnnualReport = () => {
                         </button>
                       </h2>
                       <div id="panelsStayOpen-collapseOne1" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingOne1">
-                        <div className="m-5">
+                        <div className="table-responsive m-5">
                           <table class="table table-bordered mt-3 mb-3">
                             <tr><th>Sl. No.</th><th>Title of the Thesis</th><th>Name of the Scholar</th><th>Name of the Supervisor</th><th>Month and Year if the Viva-voce conducted</th></tr>
                           </table>
@@ -64,7 +64,7 @@ const AnnualReport = () => {
                         </button>
                       </h2>
                       <div id="panelsStayOpen-collapseTwo2" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo2">
-                        <div className="m-5">
+                        <div className="table-responsive m-5">
                           <table class="table table-bordered mt-3 mb-3">
                             <tr><th>Sl. No.</th><th>Title of the Thesis</th><th>Name of the Scholar</th><th>Name of the Supervisor</th><th>Month and Year if the Viva-voce conducted</th></tr>
                           </table>
@@ -78,7 +78,7 @@ const AnnualReport = () => {
                         </button>
                       </h2>
                       <div id="panelsStayOpen-collapseThree3" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree3">
-                        <div className="m-5">
+                        <div className="table-responsive m-5">
                           <table class="table table-bordered mt-3 mb-3">
                             <tr><th>Sl. No.</th><th>Title of the Thesis</th><th>Name of the Scholar</th><th>Name of the Supervisor</th><th>Month and Year if the Viva-voce conducted</th></tr>
                           </table>
@@ -92,7 +92,7 @@ const AnnualReport = () => {
                         </button>
                       </h2>
                       <div id="panelsStayOpen-collapseThree4" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree4">
-                        <div className="m-5">
+                        <div className="table-responsive m-5">
                           <table class="table table-bordered mt-3 mb-3">
                             <tr><th>Sl. No.</th><th>Title of the Thesis</th><th>Name of the Scholar</th><th>Name of the Supervisor</th><th>Month and Year if the Viva-voce conducted</th></tr>
                           </table>
@@ -110,7 +110,7 @@ const AnnualReport = () => {
                 </button>
               </h2>
               <div id="panelsStayOpen-collapseThree6" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree6">
-                <div className="m-5">
+                <div className="table-responsive m-5">
                   <table class="table table-bordered mt-3 mb-3">
                     <tr><th>Sl. No.</th><th>Name of the Project</th><th>Name of the Co-ordinator</th><th>Amount(Rs. in lakh)</th><th>Sponsoring Agency</th></tr>
                   </table>
@@ -124,7 +124,7 @@ const AnnualReport = () => {
                 </button>
               </h2>
               <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
-                <div className="m-5">
+                <div className="table-responsive m-5">
                   <h3 id="title">CONSULTANCY</h3>
                   <table class="table table-bordered mt-3 mb-5">
                     <tr><th>Sl. No.</th><th>Title of the Consultancy</th><th>Name of the Co-ordinator</th><th>Amount(Rs. in lakh)</th><th>Sponsoring Agency</th></tr>
@@ -147,12 +147,12 @@ const AnnualReport = () => {
                 <div class="accordion m-5" id="accordionPanelsStayOpenExample">
                   <div class="accordion-item">
                     <h2 class="accordion-header" id="panelsStayOpen-headingTwo8">
-                      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne8" aria-expanded="false" aria-controls="panelsStayOpen-collapseOne8">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne8" aria-expanded="false" aria-controls="panelsStayOpen-collapseOne8">
                         Training Programmes/Short Term Courses/Workshop Conducted
                       </button>
                     </h2>
                     <div id="panelsStayOpen-collapseOne8" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo8">
-                      <div className="m-5">
+                      <div className="table-responsive m-5">
                         <h3 id="title">TRAINING PROGRAMMES</h3>
                         <table class="table table-bordered mt-3 mb-5">
                           <tr><th>Sl. No.</th><th>Title of the Training Programme</th><th>Date</th><th>Number of participants</th><th>Name of the Co-ordinator</th><th>Sponsoring Agency</th></tr>
@@ -183,7 +183,7 @@ const AnnualReport = () => {
                       </button>
                     </h2>
                     <div id="panelsStayOpen-collapseTwo9" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo9">
-                      <div className="m-5">
+                      <div className="table-responsive m-5">
                         <table class="table table-bordered mt-3 mb-3">
                           <tr><th>Sl. No.</th><th>Name of the Faculty and Designation</th><th>Date</th><th>Title of the Programme attended</th><th>Venue</th></tr>
                         </table>
@@ -197,7 +197,7 @@ const AnnualReport = () => {
                       </button>
                     </h2>
                     <div id="panelsStayOpen-collapseThree10" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree10">
-                      <div className="m-5">
+                      <div className="table-responsive m-5">
                         <h3 id="title">CONFERENCES</h3>
                         <table class="table table-bordered mt-3 mb-5">
                           <tr><th>Sl. No.</th><th>Name of the Conference conducted</th><th>Date</th><th>Number of participants</th><th>Venue</th><th>Sponsoring Agency</th></tr>
@@ -223,7 +223,7 @@ const AnnualReport = () => {
                 </button>
               </h2>
               <div id="panelsStayOpen-collapseOne11" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo11">
-                <div className="m-5">
+                <div className="table-responsive m-5">
                   <h1> Conferences / Seminars / Symposium attended by the Faculty Members of Anna University</h1>
                   <h3 id="title">At National Level(within India)</h3>
                   <table class="table table-bordered mt-3 mb-5">
@@ -291,7 +291,7 @@ const AnnualReport = () => {
                 </button>
               </h2>
               <div id="panelsStayOpen-collapseOne12" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo12">
-                <div className="m-5">
+                <div className="table-responsive m-5">
                   <table class="table table-bordered mt-3 mb-3">
                     <tr><th>Sl No</th><th>Name of the Visitor</th><th>Designation</th><th>Address of Office / organization</th><th>Purpose of Visit</th><th>Date of Visit</th></tr>
                   </table>
@@ -305,7 +305,7 @@ const AnnualReport = () => {
                 </button>
               </h2>
               <div id="panelsStayOpen-collapseOne13" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo13">
-                <div className="m-5">
+                <div className="table-responsive m-5">
                   <table class="table table-bordered mt-3 mb-3">
                     <tr><th>Sl No</th><th>Name of the New Equipment / Instrument purchased</th><th>Nature of work / function of the equipment / instrument</th><th>Purchase Cost(Above Rs.5.00 Lakh)</th></tr>
                   </table>
@@ -319,7 +319,7 @@ const AnnualReport = () => {
                 </button>
               </h2>
               <div id="panelsStayOpen-collapseOne14" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo14">
-                <div className="m-5">
+                <div className="table-responsive m-5">
                   <h1>Research Paper Presentation</h1>
                   <h3 id="title">In National Conferences / Seminars / Symposium / Workshop </h3>
                   <table class="table table-bordered mt-3 mb-3">
@@ -339,7 +339,7 @@ const AnnualReport = () => {
                 </button>
               </h2>
               <div id="panelsStayOpen-collapseOne15" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo15">
-                <div className="m-5">
+                <div className="table-responsive m-5">
                   <h1> Research Papers published</h1>
                   <h3 id="title">In National Journals</h3>
                   <table class="table table-bordered mt-3 mb-3">
@@ -387,7 +387,7 @@ const AnnualReport = () => {
                 </button>
               </h2>
               <div id="panelsStayOpen-collapseOne16" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo16">
-                <div className="m-5">
+                <div className="table-responsive m-5">
                   <table class="table table-bordered mt-3 mb-3">
                     <tr><th>Sl No</th><th>Name of the Book</th><th>Name of the Faculty</th><th>Name of the Publisher</th><th>Month and Year</th></tr>
                   </table>
@@ -401,7 +401,7 @@ const AnnualReport = () => {
                 </button>
               </h2>
               <div id="panelsStayOpen-collapseOne17" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo17">
-                <div className="m-5">
+                <div className="table-responsive m-5">
                   <table class="table table-bordered mt-3 mb-3">
                     <tr><th>Sl No</th><th>Title of the Patent</th><th>Inventors</th><th>Patent Number</th><th>Patent Organization</th><th>Month and Year</th></tr>
                   </table>
