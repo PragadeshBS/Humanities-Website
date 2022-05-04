@@ -1,9 +1,9 @@
-import TabbedContent from "../../../../components/tabbedContent/TabbedContent";
 import students2016 from "../../../../data/students/MPhil/math/2016";
 import students2017 from "../../../../data/students/MPhil/math/2017";
 import students2018 from "../../../../data/students/MPhil/math/2018";
 import students2019 from "../../../../data/students/MPhil/math/2019";
 import Title from "../../../../components/Title";
+import SelectedContent from "../../../../components/selectedContent/SelectedContent";
 
 const MPhilMath = () => {
   const content = {
@@ -15,7 +15,7 @@ const MPhilMath = () => {
   return (
     <div className="container mb-5">
       <Title text="M.Phil Students" />
-      <TabbedContent content={content} defaultTab={2016} />
+      <SelectedContent content={content} defaultTab={2016} />
     </div>
   );
 };

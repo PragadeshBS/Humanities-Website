@@ -1,5 +1,5 @@
 import "./styles.css";
-const Tabs = ({ tabItems, activeItem, changeCurItem }) => {
+const Options = ({ tabItems, activeItem, changeCurItem }) => {
   return (
     <div>
       <p className="h3 p-3 text-center">Year of admission</p>
@@ -15,4 +15,4 @@ const Tabs = ({ tabItems, activeItem, changeCurItem }) => {
   );
 };
 
-export default Tabs;
+export default Options;
