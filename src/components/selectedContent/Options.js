@@ -1,14 +1,20 @@
 import "./styles.css";
-const Options = ({ tabItems, activeItem, changeCurItem }) => {
+const Options = ({ options, activeItem, changeCurItem, selectTitle }) => {
   return (
     <div>
-      <p className="h3 p-3 text-center">Year of admission</p>
-      <select className="form-select my-3 w-50 text-center" id="year-select"
+      <p className="h3 p-3 text-center">{selectTitle}</p>
+      <select
+        className="form-select my-3 w-50 text-center"
+        id="year-select"
         value={activeItem}
         onChange={(e) => changeCurItem(e.target.value)}
       >
-        {tabItems.map((item, index) => {
-          return <option value={item}>{item}</option>;
+        {options.map((option, index) => {
+          return (
+            <option value={option} key={index}>
+              {option}
+            </option>
+          );
         })}
       </select>
     </div>

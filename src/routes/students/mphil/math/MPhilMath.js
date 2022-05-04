@@ -10,12 +10,17 @@ const MPhilMath = () => {
     2016: students2016,
     2017: students2017,
     2018: students2018,
-    2019: students2019
+    2019: students2019,
   };
   return (
     <div className="container mb-5">
       <Title text="M.Phil Students" />
-      <SelectedContent content={content} defaultTab={2016} />
+      <SelectedContent
+        content={content}
+        defaultView={2016}
+        contentType="students"
+        selectTitle="Year of Admission"
+      />
     </div>
   );
 };

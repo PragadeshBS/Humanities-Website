@@ -19,7 +19,12 @@ const MScMath = () => {
   return (
     <div className="container mb-5">
       <Title text="M.Sc Students" />
-      <SelectedContent content={content} defaultTab={2016} />
+      <SelectedContent
+        content={content}
+        defaultView={2016}
+        contentType="students"
+        selectTitle="Year of Admission"
+      />
     </div>
   );
 };

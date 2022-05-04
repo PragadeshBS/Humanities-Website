@@ -3,6 +3,6 @@
     margin: 0 auto;
 }
 .accent-bg{
-    background-color: #182628;
+    background-color: #182628 !important;
     color: white;
 }

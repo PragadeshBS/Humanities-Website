@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 const Research = () => {
   return (
     <li className="nav-item dropdown">
@@ -12,9 +13,9 @@ const Research = () => {
       </a>
       <ul className="dropdown-menu">
         <li>
-          <a href="#" className="dropdown-item">
+          <Link to="/research/funded" className="dropdown-item">
             Funded Research Projects
-          </a>
+          </Link>
         </li>
         <li className="dropdown-submenu">
           <a
@@ -26,14 +27,14 @@ const Research = () => {
           </a>
           <ul className="dropdown-menu">
             <li>
-              <a href="#" className="dropdown-item">
+              <Link to="/research/full-time" className="dropdown-item">
                 Full Time
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="#" className="dropdown-item">
+              <Link to="/research/part-time" className="dropdown-item">
                 Part Time
-              </a>
+              </Link>
             </li>
           </ul>
         </li>
