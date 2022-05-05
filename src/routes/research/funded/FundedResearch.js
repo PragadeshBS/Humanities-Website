@@ -1,7 +1,12 @@
 import Title from "../../../components/Title";
 import fundedResearchData from "../../../data/research/funded";
+import { useEffect } from "react";
 
 const FundedResearch = () => {
+  useEffect(() => {
+    document.title =
+      "Funded Research Projects | Department of Applied Sciences & Humanities, MIT Campus, Anna University";
+  }, []);
   return (
     <div>
       <Title text="Funded Research Projects" />

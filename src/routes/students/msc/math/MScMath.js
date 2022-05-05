@@ -6,8 +6,13 @@ import students2020 from "../../../../data/students/MSc/math/2020";
 import students2021 from "../../../../data/students/MSc/math/2021";
 import Title from "../../../../components/Title";
 import SelectedContent from "../../../../components/selectedContent/SelectedContent";
+import { useEffect } from "react";
 
 const MScMath = () => {
+  useEffect(() => {
+    document.title =
+      "M.Sc Math Students | Department of Applied Sciences & Humanities, MIT Campus, Anna University";
+  }, []);
   const content = {
     2016: students2016,
     2017: students2017,

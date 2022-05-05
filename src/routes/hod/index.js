@@ -1,6 +1,10 @@
 import Title from "../../components/Title";
+import { useEffect } from "react";
 import "./index.css";
 const Hod = () => {
+  useEffect(() => {
+    document.title = "HOD's Desk | Department of Applied Sciences & Humanities, MIT Campus, Anna University";
+  }, []);
   return (
     <div className="container my-3">
       <Title text="HOD's Desk" />
