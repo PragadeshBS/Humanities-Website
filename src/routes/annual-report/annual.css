@@ -1,5 +1,5 @@
-td,th{
-    padding:7px;
+.block td,th{
+    padding:10px;
 }
 
 .nesteditem{
