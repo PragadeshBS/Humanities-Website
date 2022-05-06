@@ -2,7 +2,7 @@ import { useEffect } from "react";
 
 function Home() {
   useEffect(() => {
-    document.title = "Home | Dept of human";
+    document.title = "Home | Department of Applied Sciences & Humanities, MIT Campus, Anna University";
   }, []);
   return (
     <div>

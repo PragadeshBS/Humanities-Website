@@ -4,7 +4,7 @@ import Title from "../../components/Title";
 import Card from "../../components/card/Card";
 export default function NonTeaching() {
   useEffect(() => {
-    document.title = "NonTeaching staff";
+    document.title = "Non-Teaching Staff | Department of Applied Sciences & Humanities, MIT Campus, Anna University";
   }, []);
   var data = getdetails();
   return (

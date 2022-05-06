@@ -1,7 +1,11 @@
 import Title from "../../components/Title";
+import { useEffect } from "react";
 import "./styles.css";
 
 const CharacterizationFacilities = () => {
+  useEffect(() => {
+    document.title = "Characterization Facilities | Department of Applied Sciences & Humanities, MIT Campus, Anna University";
+  }, []);
   return (
     <div>
       <Title text="Characterization Facilites" />

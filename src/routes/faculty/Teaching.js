@@ -6,7 +6,7 @@ import SideBar from "../../components/sidebar/Sidebar";
 import Cards from "../../components/card/Cards";
 export default function Teaching() {
   useEffect(() => {
-    document.title = "teaching staff";
+    document.title = "Teaching Staff | Department of Applied Sciences & Humanities, MIT Campus, Anna University";
   }, []);
   var data = getdetails();
   const [curSub, setcurSub] = useState(data[0]);

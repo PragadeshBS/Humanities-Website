@@ -1,5 +1,9 @@
+import { useEffect } from "react";
 import "./infrastructure.css";
 const Infrastructure = () => {
+  useEffect(() => {
+    document.title = "Infrastructure | Department of Applied Sciences & Humanities, MIT Campus, Anna University";
+  }, []);
   return (
     <div>
       <div className="container mt-5 mb-5">
