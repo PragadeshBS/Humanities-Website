@@ -1,10 +1,22 @@
 .card-content {
   text-align: left;
+  margin: 10px;
 }
-@media only screen and (max-width: 484px) {
+.card-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 300px;
+}
+@media only screen and (max-width: 576px) {
   .contact-info {
     display: flex;
     flex-direction: row;
     justify-content: center;
+  }
+}
+@media only screen and (max-width: 330px) {
+  .card-row {
+    width: 100%;
   }
 }

@@ -9,7 +9,7 @@ var data = [
         area_of_interest: "Machine Learning",
         mail: "abc@mail.com",
         phone: "2321344531",
-        img: "/static/images/faculty/auLogo.png",
+        img: "/static/images/faculty/test2.jpg",
       },
       {
         name: "Prabakaran",
@@ -46,6 +46,28 @@ var data = [
   {
     id: 2,
     dept: "chemistry",
+    staff: [
+      {
+        name: "Prabakaran",
+        designation: "Assistant Professor",
+        area_of_interest: "Machine Learning",
+        mail: "abc@mail.com",
+        phone: "2321344531",
+        img: "/static/images/faculty/auLogo.png",
+      },
+      {
+        name: "xyz",
+        designation: "Assistant Professor",
+        area_of_interest: "Machine Learning",
+        mail: "abc@mail.com",
+        phone: "2321344531",
+        img: "/static/images/faculty/auLogo.png",
+      },
+    ],
+  },
+  {
+    id: 3,
+    dept: "English",
     staff: [
       {
         name: "Prabakaran",
