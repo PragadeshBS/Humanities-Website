@@ -1,5 +1,5 @@
 import "./annual.css";
-import Report from "../../components/annualReport/report";
+import Report from "./reportComponents/report";
 import { useEffect } from "react";
 const AnnualReport = () => {
   useEffect(() => {
@@ -8,7 +8,7 @@ const AnnualReport = () => {
   }, []);
   return (
     <div>
-      <Report/>
+      <Report />
     </div>
   );
 };

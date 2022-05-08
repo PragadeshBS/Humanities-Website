@@ -16,7 +16,7 @@ const Report=()=>{
         <div className="row">
           <Title/>
           <Document/>
-          <div class="accordion" id="accordionPanelsStayOpenExample">
+          <div className="accordion" id="accordionPanelsStayOpenExample">
             <Professors/>
             <Degrees/>
             <Researchprojects/>
