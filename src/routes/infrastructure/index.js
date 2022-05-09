@@ -13,7 +13,7 @@ const Infrastructure = () => {
                   PHYSICS LABORATORY
               </h2>
               <center>
-                <div id="carouselExampleIndicators" className="carousel slide idivision" data-bs-ride="carousel">
+                <div id="carouselExampleIndicators" className="carousel carousel-dark slide idivision" data-bs-ride="carousel">
                   <div className="carousel-indicators">
                     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
                     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -48,7 +48,7 @@ const Infrastructure = () => {
                   CHEMISTRY LABORATORY
               </h2>
               <center>
-                <div id="carouselExampleIndicators2" className="carousel slide idivision" data-bs-ride="carousel">
+                <div id="carouselExampleIndicators2" className="carousel carousel-dark slide idivision" data-bs-ride="carousel">
                   <div className="carousel-indicators">
                     <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
                     <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -78,7 +78,7 @@ const Infrastructure = () => {
               <h2 className="display mt-5">
                   UV LABORATORY
               </h2><center>
-                <div id="carouselExampleIndicators3" className="carousel slide idivision" data-bs-ride="carousel">
+                <div id="carouselExampleIndicators3" className="carousel carousel-dark slide idivision" data-bs-ride="carousel">
                   <div className="carousel-indicators">
                     <button type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
                   </div>
@@ -101,7 +101,7 @@ const Infrastructure = () => {
                 COMMUNICATION LABORATORY
               </h2>
               <center>
-                <div id="carouselExampleIndicators4" className="carousel slide idivision" data-bs-ride="carousel">
+                <div id="carouselExampleIndicators4" className="carousel carousel-dark slide idivision" data-bs-ride="carousel">
                   <div className="carousel-indicators">
                     <button type="button" data-bs-target="#carouselExampleIndicators4" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
                     <button type="button" data-bs-target="#carouselExampleIndicators4" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -128,7 +128,7 @@ const Infrastructure = () => {
                   COMPUTATIONAL MATHEMATICS LABORATORY
               </h2>
               <center>
-                <div id="carouselExampleIndicators5" className="carousel slide idivision" data-bs-ride="carousel">
+                <div id="carouselExampleIndicators5" className="carousel carousel-dark slide idivision" data-bs-ride="carousel">
                   <div className="carousel-indicators">
                     <button type="button" data-bs-target="#carouselExampleIndicators5" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
                     <button type="button" data-bs-target="#carouselExampleIndicators5" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -155,7 +155,7 @@ const Infrastructure = () => {
                   HIGH TEMPERATURE FURNACE LABORATORY
               </h2>
               <center>
-                <div id="carouselExampleIndicators6" className="carousel slide idivision" data-bs-ride="carousel">
+                <div id="carouselExampleIndicators6" className="carousel carousel-dark slide idivision" data-bs-ride="carousel">
                   <div className="carousel-indicators">
                     <button type="button" data-bs-target="#carouselExampleIndicators6" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
                   </div>
