@@ -1,20 +1,18 @@
 import { useEffect } from "react";
-import { getdetails } from "../../data/nonteaching-faculty";
 import Title from "../../components/Title";
-import Card from "../../components/card/Card";
+import Cards from "../../components/card/Cards";
+import data from "../../data/staffs/nonTeaching";
 export default function NonTeaching() {
   useEffect(() => {
-    document.title = "Non-Teaching Staff | Department of Applied Sciences & Humanities, MIT Campus, Anna University";
+    document.title =
+      "Non-Teaching Staff | Department of Applied Sciences & Humanities, MIT Campus, Anna University";
   }, []);
-  var data = getdetails();
   return (
     <div className="mb-5">
-      <Title text="NonTeaching Staff" />
+      <Title text="Non-Teaching Staff" />
       <div className="row">
         <div className="col-sm-12">
-          {data.map((data, index) => (
-            <Card content={data} key={index} />
-          ))}
+          <Cards items={data} type="nonTeachingStaff" />
         </div>
       </div>
     </div>

@@ -6,7 +6,8 @@ import SideBar from "../../components/sidebar/Sidebar";
 import Cards from "../../components/card/Cards";
 export default function Teaching() {
   useEffect(() => {
-    document.title = "Teaching Staff | Department of Applied Sciences & Humanities, MIT Campus, Anna University";
+    document.title =
+      "Teaching Staff | Department of Applied Sciences & Humanities, MIT Campus, Anna University";
   }, []);
   var data = getdetails();
   const [curSub, setcurSub] = useState(data[0]);
@@ -19,7 +20,7 @@ export default function Teaching() {
       <div className="row">
         <SideBar views={data} curView={curSub} changeCurView={changecurSub} />
         <div className="col-sm-12 col-md-9">
-          <Cards staffs={curSub.staff} />
+          <Cards items={curSub.staff} type="teachingStaff" />
         </div>
       </div>
     </div>
