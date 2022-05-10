@@ -1,6 +1,6 @@
 import CardItem from "./CardItem";
 import "./cardStyles/CardContent.css";
-function CardContent(props) {
+function TeachingCardContent(props) {
   var staff = props.content;
   return (
     <div className="card-row">
@@ -11,17 +11,23 @@ function CardContent(props) {
         <div className="contact-info">
           <div></div>
           <div>
+            {staff.areaOfInterest && (
+              <CardItem
+                name={staff.areaOfInterest}
+                icon="star"
+                class="area-of-interest"
+              />
+            )}
+            <CardItem name={staff.email} icon="mail" class="mail" />
             <CardItem
-              name={staff.area_of_interest}
-              icon="star"
-              class="area-of-interest"
+              name={`044-2251${staff.extnNo}`}
+              icon="phone"
+              class="phone"
             />
-            <CardItem name={staff.mail} icon="mail" class="mail" />
-            <CardItem name={staff.phone} icon="phone" class="phone" />
           </div>
         </div>
       </div>
     </div>
   );
 }
-export default CardContent;
+export default TeachingCardContent;

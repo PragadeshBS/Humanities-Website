@@ -1,9 +1,9 @@
 import "./cardStyles/Cardimg.css";
-function Cardimg(props) {
+function Cardimg({ src }) {
   return (
     <div className="card-img">
       <div className="card-row">
-        <img src={props.src} alt="iamageo"></img>
+        <img src={src} alt="iamageo"></img>
       </div>
     </div>
   );
