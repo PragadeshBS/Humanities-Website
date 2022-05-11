@@ -5,7 +5,7 @@ import TeachingCardContent from "./TeachingCardContent";
 
 function Card({ content, type }) {
   return (
-    <div className="card  mt-4 mb-4">
+    <div className={`card my-4 ${type==="teachingStaff"&&"w-100"}`}>
       <Cardimg src={content.image}></Cardimg>
       {/* for teaching staff */}
       {type === "teachingStaff" && <TeachingCardContent content={content} />}

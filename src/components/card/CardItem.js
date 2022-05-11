@@ -5,7 +5,7 @@ function CardItem(props) {
     <div className={"card-item " + props.class}>
       <CardIcons name={props.icon} />
       <div>
-        <h1>{props.name}</h1>
+        <h5>{props.name}</h5>
       </div>
     </div>
   );

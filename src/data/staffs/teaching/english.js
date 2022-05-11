@@ -14,7 +14,7 @@ const data = [
     extnNo: 6436,
     email: "joavani@gmail.com",
     areaOfInterest:
-      "Stylistics, Applied Linguistics, Language through Literature, English Language Teaching, English Language Testing, British Poetry, Syllabus Design and Material Production, LSRW Skills.",
+      "Stylistics, Applied Linguistics, Language through Literature",
     image: "/static/images/faculty/teaching/english/lourdesJoavani.JPG",
   },
   {

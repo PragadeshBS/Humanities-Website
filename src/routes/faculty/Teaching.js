@@ -27,7 +27,7 @@ export default function Teaching() {
       <Title text="Teaching Staff" />
       <div className="row">
         <SideBar views={data} curView={curSub} changeCurView={changecurSub} />
-        <div className="col-sm-12 col-md-9">
+        <div className="col-sm-12 col-xl-9">
           <Cards items={curSub.staffs} type="teachingStaff" />
         </div>
       </div>
