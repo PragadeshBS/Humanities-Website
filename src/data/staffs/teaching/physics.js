@@ -4,6 +4,7 @@ const data = [
     designation: "Professor & Head",
     extnNo: 61366376,
     email: "ponnu@mitindia.edu",
+    image: "/static/images/faculty/teaching/physics/ponnusamy.JPG",
   },
   {
     name: "Dr. R. Murugaraj",
@@ -16,6 +17,7 @@ const data = [
     designation: "Asst. Professor(SG)",
     extnNo: 6137,
     email: "geetha@mitindia.edu",
+    image: "/static/images/faculty/teaching/physics/geetha.JPG",
   },
   {
     name: "Dr. J. Ramajothi",
@@ -28,6 +30,7 @@ const data = [
     designation: "Teaching Fellow",
     extnNo: 6137,
     email: "nishasridhish@gmail.com",
+    image: "/static/images/faculty/teaching/physics/nisha.JPG",
   },
   {
     name: "Dr. N. Abdul Kalam",
@@ -40,12 +43,14 @@ const data = [
     designation: "Teaching Fellow",
     extnNo: 6137,
     email: "drselviphy@gmail.com",
+    image: "/static/images/faculty/teaching/physics/selvi.JPG",
   },
   {
     name: "Ms. A. Anitha",
     designation: "Teaching Fellow",
     extnNo: 6137,
     email: "anithaalbert@gmail.com",
+    image: "/static/images/faculty/teaching/physics/anitha.JPG",
   },
 ];
 
