@@ -13,7 +13,7 @@ const NavbarLinks = () => {
       <NavbarLink text="Courses" link="/courses" />
       <Research />
       <NavbarLink text="Annual Report" link="/annual-report" />
-      <NavbarLink text="Contact" link="/" />
+      <NavbarLink text="Contact" link="/contact" />
     </>
   );
 };

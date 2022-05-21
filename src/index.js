@@ -14,8 +14,9 @@ import MPhilMath from "./routes/students/mphil/math/MPhilMath";
 import MScMath from "./routes/students/msc/math/MScMath";
 import VisionMission from "./routes/vision-mission/Index";
 import FundedResearch from "./routes/research/funded/FundedResearch";
-import PartTimeResearch from "./routes/research/partTime/PartTimeResearch"
-import FullTimeResearch from "./routes/research/fullTime/FullTimeResearch"
+import PartTimeResearch from "./routes/research/partTime/PartTimeResearch";
+import FullTimeResearch from "./routes/research/fullTime/FullTimeResearch";
+import Contact from "./routes/contact/Contact";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -39,6 +40,7 @@ root.render(
         <Route path="research/part-time" element={<PartTimeResearch />} />
         <Route path="research/full-time" element={<FullTimeResearch />} />
         <Route path="annual-report" element={<AnnualReport />} />
+        <Route path="contact" element={<Contact />} />
       </Route>
       <Route
         path="*"
