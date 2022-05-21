@@ -54,6 +54,7 @@ const data = [
   {
     name: "Ms.G.Preethi",
     designation: "Teaching Fellow",
+    areaOfInterest: "",
     extnNo: 6438,
     email: "gpreethi92@gmail.com",
     image: "/static/images/faculty/teaching/english/preethi.JPG",

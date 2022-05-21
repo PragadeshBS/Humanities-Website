@@ -7,10 +7,10 @@ function TeachingCardContent({ content }) {
         <div className="card-content h4 fw-bold">{staff.name}</div>
         <div className="card-content h6">{staff.designation}</div>
         <hr></hr>
-        <div>
+        {staff.areaOfInterest !== "" && <div>
           <span className="fa fa-star icon"></span>
           <span className="card-content h6">{staff.areaOfInterest}</span>
-        </div>
+        </div>}
         <div>
           <span className="fa fa-envelope icon"></span>
           <span className="card-content h6">{staff.email}</span>
