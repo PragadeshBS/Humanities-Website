@@ -1,8 +1,39 @@
-.slides{
-    display: block;
-    margin: 0 auto;
+:root {
+  --accent: #182628;
 }
-.accent-bg{
-    background-color: #182628 !important;
-    color: white;
+.slides {
+  display: block;
+  margin: 0 auto;
+}
+.accent-bg {
+  background-color: #182628 !important;
+  color: white;
+}
+#profile-sidebar {
+  height: 25vh;
+  position: sticky;
+  top: 1vh;
+}
+@media only screen and (max-width: 992px) {
+  #profile-sidebar {
+    display: none;
+  }
+}
+.profile-box {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+#profile-sidebar button {
+  border: none;
+  background-color: var(--accent);
+  color: white;
+  border-radius: 10px;
+  width: 80%;
+  margin: 0 auto;
+  display: block;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+#profile-sidebar {
+  font-size: 1.3rem;
 }
