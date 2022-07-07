@@ -7,17 +7,25 @@ function TeachingCardContent({ content }) {
         <div className="card-content h4 fw-bold">{staff.name}</div>
         <div className="card-content h6">{staff.designation}</div>
         <hr></hr>
-        {staff.areaOfInterest !== "" && <div>
-          <span className="fa fa-star icon"></span>
-          <span className="card-content h6">{staff.areaOfInterest}</span>
-        </div>}
+        {staff.areaOfInterest !== "" && (
+          <div>
+            <span className="fa fa-star icon"></span>
+            <span className="card-content h6">{staff.areaOfInterest}</span>
+          </div>
+        )}
         <div>
           <span className="fa fa-envelope icon"></span>
           <span className="card-content h6">{staff.email}</span>
         </div>
         <div>
           <span className="fa fa-phone icon"></span>
-          <span className="card-content h6">044-2251{staff.extnNo}</span>
+          {String(staff.extnNo).length === 4 ? (
+            <span className="card-content h6">044 - 2251 {staff.extnNo}</span>
+          ) : String(staff.extnNo).length === 8 ? (
+            <span className="card-content h6">044 - {staff.extnNo}</span>
+          ) : (
+            <span className="card-content h6">{staff.extnNo}</span>
+          )}
         </div>
       </div>
     </div>
