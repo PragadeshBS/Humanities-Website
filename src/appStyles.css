@@ -10,9 +10,10 @@
   color: white;
 }
 #profile-sidebar {
-  height: 25vh;
+  /* height: 25vh; */
   position: sticky;
-  top: 1vh;
+  top: 2vh;
+  font-size: 1.1rem;
 }
 @media only screen and (max-width: 992px) {
   #profile-sidebar {
@@ -32,8 +33,4 @@
   margin: 0 auto;
   display: block;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-}
-
-#profile-sidebar {
-  font-size: 1.3rem;
 }

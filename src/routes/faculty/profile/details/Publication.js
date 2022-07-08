@@ -5,13 +5,23 @@ const Publication = ({ pub }) => {
       <div className="border border-2 p-3 border-rounded rounded-3 profile-box">
         {pub.map((p, idx) => {
           return (
-            <div key={idx}>
+            <div key={idx} className="border-bottom mb-3">
               <h6>
-                <a href={p.link} target="_blank">
-                  {p.title}
-                </a>
+                {p.link ? (
+                  <a
+                    href={p.link}
+                    target={p.link !== "#" ? "_blank" : ""}
+                    rel="noreferrer"
+                  >
+                    {p.title}
+                  </a>
+                ) : (
+                  <p>{p.title}</p>
+                )}
               </h6>
-              <p className="small text-secondary">{p.people}</p>
+              <p className="small text-secondary">
+                {p.people} {p.year}
+              </p>
               <p>{p.name}</p>
             </div>
           );

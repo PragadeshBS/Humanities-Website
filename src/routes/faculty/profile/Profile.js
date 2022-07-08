@@ -1,5 +1,5 @@
 import React from "react";
-import { useParams } from "react-router-dom";
+import { Navigate, useParams } from "react-router-dom";
 import getProfileData from "../../../data/staffs/profile/profileData";
 import Title from "../../../components/Title";
 import PersonalInfo from "./details/PersonalInfo";
@@ -16,6 +16,9 @@ import SectionSelect from "./SectionSelect";
 const Profile = () => {
   const { staffId } = useParams();
   const data = getProfileData(staffId);
+  if (!data || !staffId) {
+    return <Navigate to="/404" />;
+  }
   return (
     <div className="mb-5">
       <Title text={data.personalInfo.name} />
@@ -26,9 +29,9 @@ const Profile = () => {
         <div className="col-lg-9">
           <PersonalInfo pinfo={data.personalInfo} />
           <Education eduData={data.education} />
-          <Experience expData={data.experience} />
+          {data.experience && <Experience expData={data.experience} />}
           {data.project && <Project />}
-          <Publication pub={data.publications} />
+          {data.publications && <Publication pub={data.publications} />}
           {(data.conferencesAttended || data.conferencesPresented) && (
             <Conference
               attended={data.conferencesAttended}
@@ -38,8 +41,8 @@ const Profile = () => {
           {(data.fdpAttended || data.fdpPresented) && (
             <Fdp attended={data.fdpAttended} presented={data.fdpPresented} />
           )}
-          {data.research && <Research />}
-          {data.others && <Others />}
+          {data.research && <Research data={data.research} />}
+          {data.others && <Others data={data.others} />}
         </div>
       </div>
     </div>

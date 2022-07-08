@@ -1,11 +1,13 @@
+// Ms.G.Durga Devi
+
 const data = {
   personalInfo: {
     name: "Ms.G.Durga Devi",
-    designation: "TEACHING FELLOW",
+    designation: "Teaching Fellow",
     contact: "9790700012",
     email: "ganmapons@gmail.com\nganmapons@yahoo.com",
     areaOfInterest: "COMPUTATIONAL CHEMISTRY",
-    image: "/static/images/faculty/teaching/chemistry/durgaDevi.JPG"
+    image: "/static/images/faculty/teaching/chemistry/durgaDevi.JPG",
   },
   education: {
     ug: "B.Sc",
