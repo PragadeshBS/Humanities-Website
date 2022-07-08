@@ -11,7 +11,7 @@ const data = [
     name: "Dr. D. Meenakshi",
     designation: "Teaching Fellow",
     extnNo: 9444229952,
-    areaOfInterest: "",
+    areaOfInterest: "Composites and Green synthesis",
     email: "prasha05@gmail.com",
   },
   {

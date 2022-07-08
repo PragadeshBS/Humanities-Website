@@ -2,25 +2,28 @@
 
 const data = {
   personalInfo: {
-    name: "",
-    designation: "",
-    contact: "",
-    email: "",
-    areaOfInterest: "",
-    image: "",
+    name: "Ms.G.Preethi",
+    designation: "Teaching Fellow",
+    contact: "7397350117",
+    email: "gpreethi92@gmail.com",
+    areaOfInterest: "Translation StudiesnEnglish Language and TeachingnEcocriticismn",
+    image: "/static/images/faculty/teaching/english/preethi.JPG",
   },
   education: {
-    ug: "",
-    ugBranch: "",
-    ugCollege: "",
-    pg: "",
-    pgBranch: "",
-    pgCollege: "",
+    ug: "B.A",
+    ugBranch: "English Literature",
+    ugCollege: "St.Xavier's College",
+    pg: "M.A",
+    pgBranch: "English with Communication Skills",
+    pgCollege: "Christ University",
     phdSpecialisation: "",
     phdCollege: "",
-    others: "",
+    others: "M.Phil English ",
   },
-  experience: ["", "", ""],
+  experience: [
+    "2018-2019  - Assistant Professor  - Francis Xavier Engineering College",
+    "2017-2018  - Assistant Professor  - St.Xavier's College"
+  ],
   publications: [
     {
       year: 2022,

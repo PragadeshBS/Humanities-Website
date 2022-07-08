@@ -2,25 +2,28 @@
 
 const data = {
   personalInfo: {
-    name: "",
-    designation: "",
-    contact: "",
-    email: "",
-    areaOfInterest: "",
+    name: "Dr.D.Meenakshi",
+    designation: "Teaching Fellow",
+    contact: "9444229952",
+    email: "prasha05@gmail.com",
+    areaOfInterest: "Composites and Green synthesis",
     image: "",
   },
   education: {
-    ug: "",
-    ugBranch: "",
-    ugCollege: "",
-    pg: "",
-    pgBranch: "",
-    pgCollege: "",
-    phdSpecialisation: "",
-    phdCollege: "",
-    others: "",
+    ug: "B.Sc",
+    ugBranch: "CHEMISTRY",
+    ugCollege: "M.V.M.Government Arts and Science College (W)",
+    pg: "M.Sc",
+    pgBranch: "CHEMISTRY",
+    pgCollege: "SFR COLLEGE FOR WOMEN",
+    phdSpecialisation: "COMPOSITES",
+    phdCollege: "MIT Campus, ANNA UNIVERSITY",
+    others: "MBA, B.Ed"
   },
-  experience: ["", "", ""],
+  experience: [
+    "2002 - 2004 - GUEST FACULTY (MIT CAMPUS, ANNA UNIVERSITY)",
+"2008 - Till date - TEACHING FELLOW (MIT CAMPUS, ANNA UNIVERSITY)"
+  ],
   publications: [
     {
       year: 2022,
