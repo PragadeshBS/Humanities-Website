@@ -41,7 +41,7 @@ const data = [
     name: "Dr. N. Abdul Kalam",
     designation: "Teaching Fellow",
     extnNo: 9094143657,
-    areaOfInterest: "",
+    areaOfInterest: "Nanomaterials for Energy and Environment",
     email: "abdulkalamphysics@gmail.com",
   },
   {
