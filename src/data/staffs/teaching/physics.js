@@ -43,6 +43,7 @@ const data = [
     extnNo: 9094143657,
     areaOfInterest: "Nanomaterials for Energy and Environment",
     email: "abdulkalamphysics@gmail.com",
+    detailUrl: "/faculty/profile/p1"
   },
   {
     name: "Dr. N. Selvi",
@@ -59,6 +60,7 @@ const data = [
     areaOfInterest: "Solid state Physics, Electronics, Nanomaterials",
     email: "anithaalbert@gmail.com",
     image: "/static/images/faculty/teaching/physics/anitha.JPG",
+    detailUrl: "/faculty/profile/p2"
   },
 ];
 

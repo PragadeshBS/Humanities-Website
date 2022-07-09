@@ -13,6 +13,7 @@ const data = [
     extnNo: 9444229952,
     areaOfInterest: "Composites and Green synthesis",
     email: "prasha05@gmail.com",
+    detailUrl: "/faculty/profile/c8"
   },
   {
     name: "Dr. S. Vellaichamy",
@@ -21,6 +22,7 @@ const data = [
     email: "vellaichamy.sebastian@gmail.com",
     areaOfInterest: "Environmental chemistry",
     image: "/static/images/faculty/teaching/chemistry/vellaichamy.JPG",
+    detailUrl: "/faculty/profile/c7"
   },
   {
     name: "Dr. N. Balamurugapandian",
@@ -29,6 +31,7 @@ const data = [
     email: "nbmpsha@gmail.com",
     image: "/static/images/faculty/teaching/chemistry/balamurugapandian.JPG",
     areaOfInterest: "",
+    detailUrl: "/faculty/profile/c6"
   },
   {
     name: "Ms. K. N. Vidhya",
@@ -37,6 +40,7 @@ const data = [
     email: "knvidhya@gmail.com",
     areaOfInterest: "Catalysis, Photochemistry, Inorganic chemistry, Polymer chemistry",
     image: "/static/images/faculty/teaching/chemistry/vidhya.JPG",
+    detailUrl: "/faculty/profile/c5"
   },
   {
     name: "Mr. H. Venkatasubramanian",
@@ -45,6 +49,7 @@ const data = [
     email: "hvschem@gmail.com",
     areaOfInterest: "Medical organic chemistry",
     image: "/static/images/faculty/teaching/chemistry/venkatasubramanian.JPG",
+    detailUrl: "/faculty/profile/c4"
   },
   {
     name: "Mrs. V. Jeevitha",
@@ -53,6 +58,7 @@ const data = [
     email: "princejeevitha@gmail.com",
     areaOfInterest: "Polymer chemistry-Biomaterials",
     image: "/static/images/faculty/teaching/chemistry/jeevitha.JPG",
+    detailUrl: "/faculty/profile/c3"
   },
   {
     name: "Dr. R. Shanmugam",
@@ -61,6 +67,7 @@ const data = [
     email: "gymshanmugam@gmail.com",
     areaOfInterest: "Electrochemical biosensor applications",
     image: "/static/images/faculty/teaching/chemistry/shanmugam.JPG",
+    detailUrl: "/faculty/profile/c2"
   },
   {
     name: "Ms. G. Durga Devi",
@@ -69,6 +76,7 @@ const data = [
     image: "/static/images/faculty/teaching/chemistry/durgaDevi.JPG",
     areaOfInterest: "Computational Chemistry, Spectroscopy and Environmental Science",
     email: "ganmapons@gmail.com",
+    detailUrl: "/faculty/profile/c1"
   },
 ];
 

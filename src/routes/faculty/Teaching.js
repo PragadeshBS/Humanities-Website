@@ -18,8 +18,15 @@ export default function Teaching() {
     { id: 2, name: "Physics", staffs: physicsStaffs },
     { id: 3, name: "Mathematics", staffs: mathStaffs },
   ];
-  const [curSub, setcurSub] = useState(data[0]);
+  const [curSub, setcurSub] = useState(
+    data[
+      localStorage.getItem("facultySub")
+        ? localStorage.getItem("facultySub")
+        : 0
+    ]
+  );
   const changecurSub = (subId) => {
+    localStorage.setItem("facultySub", subId);
     setcurSub(data.find((sub) => sub.id === subId));
   };
   return (

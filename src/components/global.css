@@ -20,6 +20,11 @@
   cursor: pointer;
   font-size: 25px;
 }
+#profile-expand{
+  position: absolute;
+  top: 10%;
+  right: 2%;
+}
 @media only screen and (max-width: 760px) {
   .staff-type {
     text-align: center;

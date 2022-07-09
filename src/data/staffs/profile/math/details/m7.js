@@ -21,67 +21,9 @@ const data = {
       phdCollege: "",
     },
     experience: [
-      "2012 - 201     - Assistant professor  - Dhanalakshmi College of Engineering",
-      "2018 - 202- Teaching Fellow - Anna university"
+      "2018 - 2022 - Teaching Fellow - Anna university",
+      "2012 - 2017 - Assistant professor  - Dhanalakshmi College of Engineering",
     ],
-    publications: [
-      {
-        year: 2022,
-        title: "",
-        people: "",
-        name: "",
-        link: "",
-      },
-      {
-        year: 2022,
-        title: "",
-        people: "",
-        name: "",
-        link: "",
-      },
-    ],
-    conferencesAttended: [
-      {
-        period: "",
-        title: "",
-      },
-      {
-        period: "",
-        title: "",
-      },
-    ],
-    conferencesPresented: [
-      {
-        period: "",
-        title: "",
-      },
-      {
-        period: "",
-        title: "",
-      },
-    ],
-    fdpAttended: [
-      {
-        period: "",
-        title: "",
-      },
-      {
-        period: "",
-        title: "",
-      },
-    ],
-    fdpPresented: [
-      {
-        period: "",
-        title: "",
-      },
-      {
-        period: "",
-        title: "",
-      },
-    ],
-    research: ["", ""],
-    others: ["", ""],
   };
   
   export default data;

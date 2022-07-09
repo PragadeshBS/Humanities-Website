@@ -51,6 +51,7 @@ const data = [
     extnNo: 6439,
     email: "soundarrajan@mitindia.edu",
     image: "/static/images/faculty/teaching/mathematics/soundarRajan.JPG",
+    detailUrl: "/faculty/profile/m1"
   },
   {
     name: "Ms. G. Surya",
@@ -59,6 +60,7 @@ const data = [
     email: "suryamithra1990@gmail.com",
     areaOfInterest: "Graph Theory, Abstract Algebra",
     image: "/static/images/faculty/teaching/mathematics/surya.JPG",
+    detailUrl: "/faculty/profile/m2"
   },
   {
     name: "Dr. Kavitha Pradeep",
@@ -67,6 +69,7 @@ const data = [
     extnNo: 6441,
     email: "kavita2428@gmail.com",
     image: "/static/images/faculty/teaching/mathematics/kavitaPradeep.JPG",
+    detailUrl: "/faculty/profile/m3"
   },
   {
     name: "Mr. R. Venkatasan",
@@ -75,6 +78,7 @@ const data = [
     email: "venkara_maths@yahoo.com",
     areaOfInterest: "Partial Differential Equations",
     image: "/static/images/faculty/teaching/mathematics/venkatasan.JPG",
+    detailUrl: "/faculty/profile/m4"
   },
   {
     name: "Ms. S. Hari Letchumi",
@@ -83,6 +87,7 @@ const data = [
     areaOfInterest: "Probability and Statistics",
     email: "hariletchumi1995@gmail.com",
     image: "/static/images/faculty/teaching/mathematics/hariLetchumi.JPG",
+    detailUrl: "/faculty/profile/m5"
   },
   {
     name: "Ms. A. K. Rajalakshmi",
@@ -91,6 +96,7 @@ const data = [
     email: "akrajalakshmi@mitindia.edu",
     image: "/static/images/faculty/teaching/mathematics/rajalakshmi.JPG",
     areaOfInterest: "Linear Algebra",
+    detailUrl: "/faculty/profile/m6"
   },
   {
     name: "Ms. J. Sahaya Rekha",
@@ -99,6 +105,7 @@ const data = [
     email: "rekhajsahaya@gmail.com",
     areaOfInterest: "Graph Theory",
     image: "/static/images/faculty/teaching/mathematics/sahayaRekha.JPG",
+    detailUrl: "/faculty/profile/m7"
   },
   {
     name: "Ms. M. H. Riath",
@@ -107,6 +114,7 @@ const data = [
     email: "riathbux@gmail.com",
     areaOfInterest: "Ordinary Differential Equations",
     image: "/static/images/faculty/teaching/mathematics/riath.JPG",
+    detailUrl: "/faculty/profile/m8"
   },
   {
     name: "Ms. G. Nithya",
@@ -115,6 +123,7 @@ const data = [
     email: "nithya25maheswari@gmail.com",
     image: "/static/images/faculty/teaching/mathematics/nithya.JPG",
     areaOfInterest: "Fuzzy Analysis",
+    detailUrl: "/faculty/profile/m9"
   },
   {
     name: "Mr. D. Anand",
@@ -123,6 +132,7 @@ const data = [
     areaOfInterest: "Number Theory, Algebra,Analysis",
     email: "anandmaths29@gmail.com",
     image: "/static/images/faculty/teaching/mathematics/anand.JPG",
+    detailUrl: "/faculty/profile/m10"
   },
   {
     name: "Ms. S. Juliet Preena",

@@ -5,7 +5,7 @@ const data = {
     name: "H.Venkatasubramanian",
     designation: "Teaching Fellow",
     contact: "9941304042",
-    email: "venkat.hari@mitindia.edunhvschem@gmail.com",
+    email: "venkat.hari@mitindia.edu, hvschem@gmail.com",
     areaOfInterest: "Medicinal/Organic/Green Chemistry",
     image: "/static/images/faculty/teaching/chemistry/venkatasubramanian.JPG",
   },

@@ -11,9 +11,9 @@ const Conference = ({ attended, presented }) => {
                 return (
                   <li key={idx}>
                     <div className="h6">
-                      {conf.title} -
+                      {conf.title}
                       <span className="small text-secondary ps-2">
-                        {conf.period}
+                        {conf.period && "- " + conf.period}
                       </span>
                     </div>
                   </li>

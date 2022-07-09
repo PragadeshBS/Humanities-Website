@@ -5,7 +5,7 @@ const data = {
     name: "Ms.G.Durga Devi",
     designation: "Teaching Fellow",
     contact: "9790700012",
-    email: "ganmapons@gmail.com\nganmapons@yahoo.com",
+    email: "ganmapons@gmail.com, ganmapons@yahoo.com",
     areaOfInterest: "COMPUTATIONAL CHEMISTRY",
     image: "/static/images/faculty/teaching/chemistry/durgaDevi.JPG",
   },

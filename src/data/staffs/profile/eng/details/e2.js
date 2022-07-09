@@ -25,66 +25,8 @@ const data = {
     "2012- 2015- SENIOR STUDENT FACILITATOR AND ANALYST- VALUED EPISTEMICS Pvt. Ltd.",
     "2010- 2012- CONTENT DEVELOPER- VIBGYOR.",
     "2008- 2010- Asst. LECTURER- DMI- St. EUGENE UNIVERSITY- ZAMBIA", 
-    "3007-2008- ONLINE TUTOR- TWWI Pvt.Ltd."
+    "2007-2008- ONLINE TUTOR- TWWI Pvt.Ltd."
   ],
-  publications: [
-    {
-      year: 2022,
-      title: "",
-      people: "",
-      name: "",
-      link: "",
-    },
-    {
-      year: 2022,
-      title: "",
-      people: "",
-      name: "",
-      link: "",
-    },
-  ],
-  conferencesAttended: [
-    {
-      period: "",
-      title: "",
-    },
-    {
-      period: "",
-      title: "",
-    },
-  ],
-  conferencesPresented: [
-    {
-      period: "",
-      title: "",
-    },
-    {
-      period: "",
-      title: "",
-    },
-  ],
-  fdpAttended: [
-    {
-      period: "",
-      title: "",
-    },
-    {
-      period: "",
-      title: "",
-    },
-  ],
-  fdpPresented: [
-    {
-      period: "",
-      title: "",
-    },
-    {
-      period: "",
-      title: "",
-    },
-  ],
-  research: ["", ""],
-  others: ["", ""],
 };
 
 export default data;
