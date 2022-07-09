@@ -10,8 +10,8 @@ const PersonalInfo = ({ pinfo }) => {
           />
         </div>
         <div className="col-lg-8">
-          <h1>{pinfo.name}</h1>
-          <h3>{pinfo.designation}</h3>
+          <h3>{pinfo.name}</h3>
+          <h5>{pinfo.designation}</h5>
           <div>
             <i className="bi bi-telephone-fill me-3"></i>
             <span className="h6">{pinfo.contact}</span>

@@ -12,17 +12,17 @@ function TeachingCardContent({ content }) {
   };
   return (
     <div className="card-row">
-      {staff.detailUrl && (
-        <div id="profile-expand">
-          <span
-            style={{ cursor: "pointer", fontSize: "1.3rem" }}
-            onClick={() => handleClick(staff.detailUrl)}
-          >
-            <i className="bi bi-chevron-right"></i>
-          </span>
-        </div>
-      )}
       <div className="card-content p-3">
+        {staff.detailUrl && (
+          <div id="profile-expand">
+            <span
+              style={{ cursor: "pointer", fontSize: "1.3rem" }}
+              onClick={() => handleClick(staff.detailUrl)}
+            >
+              <i className="bi bi-chevron-right"></i>
+            </span>
+          </div>
+        )}
         <div className="card-content h4 fw-bold">{staff.name}</div>
         <div className="card-content h6">{staff.designation}</div>
         <hr></hr>

@@ -67,12 +67,12 @@ const data = {
     {
       period: "Febraury 5-6, 2016",
       title:
-        "Balamurugapandian N., Ravichandran R. “Corrosion Inhibition of Copper-Nickel Alloy by NewThiadiazole Derivatives in Natural Seawater - Electro-analytical and SurfaceCharacterisationStudy”Internationalconferenceon Energy,water and Environmental science and technology (ICEWEST-2016) UGC sponsored held at Department of chemistry,Presidency college,Chennai",
+        "Balamurugapandian N., Ravichandran R. “Corrosion Inhibition of Copper-Nickel Alloy by NewThiadiazole Derivatives in Natural Seawater - Electro-analytical and Surface Characterisation Study”International conferenceon Energy,water and Environmental science and technology (ICEWEST-2016) UGC sponsored held at Department of chemistry,Presidency college,Chennai",
     },
     {
       period: "October 20-21, 2020",
       title:
-        "N.Balamurugapandian,K.Aruna,T.M.Sridhar and K.M.Veerabadran“TrigonellaFoenum-Graecum L, Nigella Sativa and Trachyspermum Ammi mixture as Corrosion inhibitor on Mild steel alloy in phosphoric acid medium”International conference on Future Aspects of Sustainable Technologies(Virtualplatform)held at Department of Chemistry, Central Institute of Technology, Kokrajhar,Assam",
+        "N.Balamurugapandian, K.Aruna, T.M.Sridhar and K.M.Veerabadran “Trigonella Foenum-Graecum L, Nigella Sativa and Trachyspermum Ammi mixture as Corrosion inhibitor on Mild steel alloy in phosphoric acid medium”International conference on Future Aspects of Sustainable Technologies (Virtualplatform) held at Department of Chemistry, Central Institute of Technology, Kokrajhar,Assam",
     },
   ],
   fdpAttended: [
