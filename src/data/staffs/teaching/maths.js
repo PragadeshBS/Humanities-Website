@@ -21,6 +21,8 @@ const data = [
     email: "arasu.math@gmail.com",
     image: "/static/images/faculty/teaching/mathematics/anbarasu.JPG",
     areaOfInterest: "DNA Computing",
+    detailUrl: "https://www.auegov.ac.in/HomePage?Auth=wbd2R0w=",
+    externalDetail: true
   },
   {
     name: "Dr. G. Muniasamy",

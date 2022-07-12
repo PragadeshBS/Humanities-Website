@@ -15,12 +15,18 @@ function TeachingCardContent({ content }) {
       <div className="card-content p-3">
         {staff.detailUrl && (
           <div id="profile-expand">
-            <span
-              style={{ cursor: "pointer", fontSize: "1.3rem" }}
-              onClick={() => handleClick(staff.detailUrl)}
-            >
-              <i className="bi bi-chevron-right"></i>
-            </span>
+            {staff.externalDetail ? (
+              <a style={{color: "inherit"}} href={staff.detailUrl} target="_blank" rel="noreferrer">
+                <i className="bi bi-chevron-right"></i>
+              </a>
+            ) : (
+              <span
+                style={{ cursor: "pointer", fontSize: "1.3rem" }}
+                onClick={() => handleClick(staff.detailUrl)}
+              >
+                <i className="bi bi-chevron-right"></i>
+              </span>
+            )}
           </div>
         )}
         <div className="card-content h4 fw-bold">{staff.name}</div>
