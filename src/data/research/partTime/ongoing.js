@@ -42,7 +42,7 @@ const data = [
     researchGuide: "Dr. Deepa Mary Francis",
     scholarName: "Aleena George",
     title:
-      "Female Masculinity, Gender Performativity and Psychological Trauma in Leslie Feinberg’s Stone Butch Blues and Radclyffe Hall’s The Well of Loneliness : A Study",
+      "Female Masculinity, Gender Performativity and Psychological Trauma in Leslie Feinberg's Stone Butch Blues and Radclyffe Hall's The Well of Loneliness : A Study",
     sponsoringAgency: "-",
     yearOfCommencement: 2019,
   },
@@ -52,7 +52,7 @@ const data = [
     researchGuide: "Dr. Deepa Mary Francis",
     scholarName: "T. S. Durga Meenakshi",
     title:
-      "An Analysis of the Psyche of Women, Women Vs Women and Withdrawal as a Tool Employed by Shashi Deshpande to Realize Women’s Self",
+      "An Analysis of the Psyche of Women, Women Vs Women and Withdrawal as a Tool Employed by Shashi Deshpande to Realize Women's Self",
     sponsoringAgency: "-",
     yearOfCommencement: 2019,
   },

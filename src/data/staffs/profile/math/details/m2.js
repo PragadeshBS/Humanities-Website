@@ -32,7 +32,7 @@ const data = {
     {
       period: "04-10-2021 to 07-10-2021",
       title:
-        "Participated in “International Conference on Innovation Challenges in Multidisciplinary Research & Practice in Mathematics’ organized by PG and Research Department of Mathematics, Hindustan College of Arts and Science, Coimbatore",
+        "Participated in “International Conference on Innovation Challenges in Multidisciplinary Research & Practice in Mathematics' organized by PG and Research Department of Mathematics, Hindustan College of Arts and Science, Coimbatore",
     },
     {
       period: "12.04.2021 to 13.04.2021",
@@ -86,7 +86,7 @@ const data = {
     {
       period: "07-01-2020",
       title:
-        "Participated in International Seminar on Research Trends in Applied Mathematics’ organized by the Division of Mathematics, School of Advanced Sciences, Vellore Institute of Technology, Chennai",
+        "Participated in International Seminar on Research Trends in Applied Mathematics' organized by the Division of Mathematics, School of Advanced Sciences, Vellore Institute of Technology, Chennai",
     },
   ],
 };

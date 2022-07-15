@@ -78,7 +78,7 @@ const data = {
     {
       year: 2005,
       title:
-        "Interaction of poly (ethylene oxide)–poly (propylene oxide)–poly (ethylene oxide) triblock copolymer of molecular weight 2800 with sodium dodecylsulfate (SDS) micelles: some physicochemical studies",
+        "Interaction of poly (ethylene oxide)-poly (propylene oxide)-poly (ethylene oxide) triblock copolymer of molecular weight 2800 with sodium dodecylsulfate (SDS) micelles: some physicochemical studies",
       people: "J James, S Vellaichami, RSG Krishnan, S Samikannu, AB Mandal",
       name: "Chemical physics 312 (1-3), 275-287",
       link: "https://doi.org/10.1016/j.chemphys.2004.10.022",

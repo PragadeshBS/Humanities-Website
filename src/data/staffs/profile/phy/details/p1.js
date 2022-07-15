@@ -32,7 +32,7 @@ const data = {
         "BiVO4/RGO hybrid nanostructure for high performance electrochemical supercapacitor",
       people:
         "Sengottaiyan, C, Abdul Kalam, N, Jayavel, R, Shrestha, RG, Thiyagu, S, Sankar, S, Hill, JP, Shrestha, LK & Ariga, K",
-      name: "Journal of Solid State Chemistry, vol. 269, pp. 409–418. (Annexure I, Impact Factor : 2.179)",
+      name: "Journal of Solid State Chemistry, vol. 269, pp. 409-418. (Annexure I, Impact Factor : 2.179)",
       link: "https://www.sciencedirect.com/science/article/pii/S0022459618304432",
     },
     {
@@ -41,7 +41,7 @@ const data = {
         "Vanadium sulfide/reduced graphene oxide composite with enhanced supercapacitance performance",
       people:
         "Abdul Kalam, N, Sengottaiyan, C, Jayavel, R, Ariga, K, Shrestha, R.G, Thiyagu, S, Sankar, S & Shrestha, L.K",
-      name: "Journal of Taiwan Institute of Chemical Engineers, vol. 92, pp. 72–79, (Annexure I, Impact Factor: 3.849)",
+      name: "Journal of Taiwan Institute of Chemical Engineers, vol. 92, pp. 72-79, (Annexure I, Impact Factor: 3.849)",
       link: "https://www.sciencedirect.com/science/article/pii/S1876107018300610",
     },
     {
@@ -50,7 +50,7 @@ const data = {
         "Hierarchical Flower Structured Bi2S3/Reduced Graphene Oxide Nanocomposite for High Electrochemical Performance",
       people:
         "Abdul Kalam, N, Sankar, S, Sengottaiyan, C. Jayavel, R & Thiyagu S",
-      name: "Journal of Inorganic and Organomettalic Polymers and Materials, Vol. 28, pp. 73–83, (Annexure I, Impact Factor : 1.754)",
+      name: "Journal of Inorganic and Organomettalic Polymers and Materials, Vol. 28, pp. 73-83, (Annexure I, Impact Factor : 1.754)",
       link: "https://link.springer.com/article/10.1007/s10904-017-0701-y",
     },
   ],
