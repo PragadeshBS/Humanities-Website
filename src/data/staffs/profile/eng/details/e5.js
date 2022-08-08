@@ -22,8 +22,8 @@ const data = {
     others: "M.Phil English ",
   },
   experience: [
-    "2018-2019  - Assistant Professor  - Francis Xavier Engineering College",
-    "2017-2018  - Assistant Professor  - St.Xavier's College",
+    "2018-2019; Assistant Professor  - Francis Xavier Engineering College",
+    "2017-2018; Assistant Professor  - St.Xavier's College",
   ],
 };
 

@@ -20,16 +20,16 @@ const data = {
     phdCollege:
       "B.S.Abdur Rahman Crescent institute of Science and technology, Vandalur, Chennai",
     others:
-      "1. Diploma in Sugar technology from DDE, Annamalai University, 2001nn2. Diploma in office automation from ABAYAM, Chromepet, 1998nn3. M.Phil Chemistry from DDE, Annamalai University, 2009nn4. Online course on Intellectual Property rights from WIPO, 2008nn5. Diploma in First Aid from St.Peter Ambulance, Chennai, 2006",
+      "1. Diploma in Sugar technology from DDE, Annamalai University, 2001 2. Diploma in office automation from ABAYAM, Chromepet, 1998 3. M.Phil Chemistry from DDE, Annamalai University, 2009 4. Online course on Intellectual Property rights from WIPO, 2008 5. Diploma in First Aid from St.Peter Ambulance, Chennai, 2006",
   },
   experience: [
-    "Aug 2018 - till Date, Teaching Fellow, Madras Institute of technology Chromepet Chennai 60004",
-    "Aug 2017 - Jan 2017, Guest Faculty, Madras Institute of technology, Chromepet Chennai",
-    "Aug 2012-Dec 2016, Teaching Assistant, Madras Institute of technology, Chromepet Chennai 600004",
-    "Jul 2011 - Jul 2012, Project Assistant, BSA Crescent institute of Science and technology, Chennai",
-    "Feb 2009 to Jun 2011, As Scientific officer in GVK Bio, Inogent lab, Hyderabad",
-    "Oct 2006 to Dec 2009, As Research Associate Scientist in Orchid Chemicals and Pharma. Ltd, Chennai",
-    "June 2004 to Oct 2006, As Research Scientist in Aurigene Drug Discovery Ltd, Bangalore, ( part of Dr.Reddy's Lab)",
+    "Aug 2018 - till Date; Teaching Fellow, Madras Institute of technology Chromepet Chennai 60004",
+    "Aug 2017 - Jan 2017; Guest Faculty, Madras Institute of technology, Chromepet Chennai",
+    "Aug 2012-Dec 2016; Teaching Assistant, Madras Institute of technology, Chromepet Chennai 600004",
+    "Jul 2011 - Jul 2012; Project Assistant, BSA Crescent institute of Science and technology, Chennai",
+    "Feb 2009 to Jun 2011; As Scientific officer in GVK Bio, Inogent lab, Hyderabad",
+    "Oct 2006 to Dec 2009; As Research Associate Scientist in Orchid Chemicals and Pharma. Ltd, Chennai",
+    "June 2004 to Oct 2006; As Research Scientist in Aurigene Drug Discovery Ltd, Bangalore, ( part of Dr.Reddy's Lab)",
   ],
   publications: [
     {

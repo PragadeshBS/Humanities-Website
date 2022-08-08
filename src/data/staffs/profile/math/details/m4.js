@@ -22,9 +22,9 @@ const data = {
     phdCollege: "",
   },
   experience: [
-    "2018 - till date  - Teaching Fellow      - Madras Institute of Technology , Anna University",
-    "2017 - 2018       - Assistant Professor  - Vel Tech High Tech  Dr.Rangarajan Dr.Sakunthala Engineering College",
-    "2010 - 2016       - Assistant Professor  - P.B.College of Engineering",
+    "2018 - till date; Teaching Fellow      - Madras Institute of Technology , Anna University",
+    "2017 - 2018; Assistant Professor  - Vel Tech High Tech  Dr.Rangarajan Dr.Sakunthala Engineering College",
+    "2010 - 2016; Assistant Professor  - P.B.College of Engineering",
   ],
   conferencesAttended: [
     {

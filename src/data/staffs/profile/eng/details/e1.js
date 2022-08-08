@@ -22,7 +22,7 @@ const data = {
     others:
       "M. Phil, English Language Teaching, College of Engineering Guindy Campus, Anna University",
   },
-  experience: ["2010 - TILL DATE - TEACHING FELLOW - ANNA UNIVERSITY"],
+  experience: ["2010 - TILL DATE; TEACHING FELLOW - ANNA UNIVERSITY"],
   publications: [
     {
       year: 2016,

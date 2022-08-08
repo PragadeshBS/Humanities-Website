@@ -22,9 +22,9 @@ const data = {
     others: "M.Phil Specialisation - ELT CEG Campus, Anna University",
   },
   experience: [
-    "2020 - Present - Teaching Fellow - MIT Campus - Anna University",
-    "2019 - 2020 - Assistant Professor - Stella Maris College - Madras University",
-    "2017 - 2018 - Language Trainer - The Art of Speaking",
+    "2020 - Present; Teaching Fellow - MIT Campus - Anna University",
+    "2019 - 2020; Assistant Professor - Stella Maris College - Madras University",
+    "2017 - 2018; Language Trainer - The Art of Speaking",
   ],
   publications: [
     {

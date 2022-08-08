@@ -22,7 +22,7 @@ const data = {
     phdCollege: "",
   },
   experience: [
-    "2018 - till date - Teaching Fellow - Madras Institute of Technology, Anna University",
+    "2018 - till date; Teaching Fellow - Madras Institute of Technology, Anna University",
   ],
   fdpAttended: [
     {

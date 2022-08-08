@@ -20,7 +20,7 @@ const data = {
     phdCollege: "Anna University",
     others: "M.Phil Mathematics",
   },
-  experience: ["2016 - 2022 - TEACHING FELLOW - ANNA UNIVERSITY"],
+  experience: ["2016 - 2022; TEACHING FELLOW - ANNA UNIVERSITY"],
   publications: [
     {
       year: 2021,

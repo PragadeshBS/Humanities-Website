@@ -22,7 +22,7 @@ const data = {
     phdSpecialisation: "",
     phdCollege: "",
   },
-  experience: ["2016-2022 - TEACHING FELLOW - ANNA UNIVERSITY"],
+  experience: ["2016-2022; TEACHING FELLOW - ANNA UNIVERSITY"],
   conferencesAttended: [
     {
       period: "25-26, March 2022",

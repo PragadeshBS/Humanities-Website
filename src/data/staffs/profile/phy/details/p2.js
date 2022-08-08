@@ -21,11 +21,11 @@ const data = {
     others: "",
   },
   experience: [
-    "July 2019 to date - Teaching Fellow -MIT CAMPUS, ANNA UNIVERSITY",
-    "Jan. 2016-Apr 2018- Asst. Professor- Madras Christian College, Tambaram, Chennai",
-    "July 2009-Oct. 2011- Asst. Professor- New Prince Shri Bhavani College of Eng. and Tech., Chennai.",
-    "Jan. 2005 -July 2007- Lecturer- Department of Physics, Lady Doak College, Madurai",
-    "Sep 2003 -Dec 2003- Lecturer-Department of Nuclear Physics, University of Madras, Chennai",
+    "July 2019 to date; Teaching Fellow -MIT CAMPUS, ANNA UNIVERSITY",
+    "Jan. 2016 - Apr 2018; Asst. Professor- Madras Christian College, Tambaram, Chennai",
+    "July 2009 - Oct. 2011; Asst. Professor- New Prince Shri Bhavani College of Eng. and Tech., Chennai.",
+    "Jan. 2005 - July 2007; Lecturer- Department of Physics, Lady Doak College, Madurai",
+    "Sep 2003 - Dec 2003; Lecturer-Department of Nuclear Physics, University of Madras, Chennai",
   ],
   conferencesAttended: [
     {

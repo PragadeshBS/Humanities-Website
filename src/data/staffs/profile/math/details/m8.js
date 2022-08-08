@@ -21,12 +21,12 @@ const data = {
     others: "",
   },
   experience: [
-    "2021 - 2022 - Teaching fellow- ANNA UNIVERSITY",
-    "2020 - 2021 - Teaching fellow- ANNA UNIVERSITY",
-    "2019 - 2020 - Teaching fellow- ANNA UNIVERSITY",
-    "2018 - 2019 - Teaching fellow- ANNA UNIVERSITY",
-    "2012 - 2013 - Temporary Faculty- NIT ",
-    "2010 - 2012 - Assistant professor - HINDUSTAN UNIVERSITY",
+    "2021 - 2022; Teaching fellow- ANNA UNIVERSITY",
+    "2020 - 2021; Teaching fellow- ANNA UNIVERSITY",
+    "2019 - 2020; Teaching fellow- ANNA UNIVERSITY",
+    "2018 - 2019; Teaching fellow- ANNA UNIVERSITY",
+    "2012 - 2013; Temporary Faculty- NIT ",
+    "2010 - 2012; Assistant professor - HINDUSTAN UNIVERSITY",
   ],
   conferencesAttended: [
     {

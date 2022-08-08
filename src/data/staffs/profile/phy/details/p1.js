@@ -22,8 +22,8 @@ const data = {
     others: "M. Phil., Physics College of Engineering Anna University",
   },
   experience: [
-    "2014 - Till date - Teaching Fellow - Madras Institute of Technology Anna University",
-    "2013 - 2014 - Assistant Professor - Meenakshi Sundrarajan Engineering College Anna University",
+    "2014 - Till date; Teaching Fellow - Madras Institute of Technology Anna University",
+    "2013 - 2014; Assistant Professor - Meenakshi Sundrarajan Engineering College Anna University",
   ],
   publications: [
     {

@@ -20,7 +20,7 @@ const data = {
     phdCollege: "BHARATHIAR UNIVERSITY",
     others: "",
   },
-  experience: ["2014 - 2022 TEACHING FELLOW - ANNA UNIVERSITY (MIT CAMPUS)"],
+  experience: ["2014 - 2022; TEACHING FELLOW - ANNA UNIVERSITY (MIT CAMPUS)"],
   publications: [
     {
       year: 2020,

@@ -21,8 +21,8 @@ const data = {
       phdCollege: "",
     },
     experience: [
-      "2018 - 2022 - Teaching Fellow - Anna university",
-      "2012 - 2017 - Assistant professor  - Dhanalakshmi College of Engineering",
+      "2018 - 2022; Teaching Fellow - Anna university",
+      "2012 - 2017; Assistant professor  - Dhanalakshmi College of Engineering",
     ],
   };
   

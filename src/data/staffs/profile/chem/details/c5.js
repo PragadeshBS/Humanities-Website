@@ -21,13 +21,13 @@ const data = {
     others: "Doing Phd",
   },
   experience: [
-    "2021 - 2022 Teaching Fellow- Anna University",
-    "2020 - 2021 Teaching Fellow- Anna University",
-    "2019 - 2020 Teaching Fellow- Anna university",
-    "2018 - 2019 Teaching Fellow- Anna university",
-    "2015 - 2016 Teaching Fellow- Anna university",
-    "2014 - 2015 Teaching Fellow -Anna University",
-    "2013 - 2014 Teaching fellow- Anna University",
+    "2021 - 2022; Teaching Fellow- Anna University",
+    "2020 - 2021; Teaching Fellow- Anna University",
+    "2019 - 2020; Teaching Fellow- Anna university",
+    "2018 - 2019; Teaching Fellow- Anna university",
+    "2015 - 2016; Teaching Fellow- Anna university",
+    "2014 - 2015; Teaching Fellow -Anna University",
+    "2013 - 2014; Teaching fellow- Anna University",
   ],
   publications: [
     {

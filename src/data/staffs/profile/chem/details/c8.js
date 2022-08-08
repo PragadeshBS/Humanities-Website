@@ -21,8 +21,8 @@ const data = {
     others: "MBA, B.Ed",
   },
   experience: [
-    "2008 - Till date - TEACHING FELLOW (MIT CAMPUS, ANNA UNIVERSITY)",
-    "2002 - 2004 - GUEST FACULTY (MIT CAMPUS, ANNA UNIVERSITY)",
+    "2008 - Till date; TEACHING FELLOW (MIT CAMPUS, ANNA UNIVERSITY)",
+    "2002 - 2004; GUEST FACULTY (MIT CAMPUS, ANNA UNIVERSITY)",
   ],
   publications: [
     {
