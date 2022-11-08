@@ -67,15 +67,6 @@ const data = [
     detailUrl: "/faculty/profile/m2",
   },
   {
-    name: "Dr. Kavitha Pradeep",
-    designation: "Teaching Fellow",
-    areaOfInterest: "Graph theory, Discrete Mathematics",
-    extnNo: 6441,
-    email: "kavita2428@gmail.com",
-    image: "/static/images/faculty/teaching/mathematics/kavitaPradeep.JPG",
-    detailUrl: "/faculty/profile/m3",
-  },
-  {
     name: "Mr. R. Venkatasan",
     designation: "Teaching Fellow",
     extnNo: 6444,
@@ -137,13 +128,6 @@ const data = [
     email: "anandmaths29@gmail.com",
     image: "/static/images/faculty/teaching/mathematics/anand.JPG",
     detailUrl: "/faculty/profile/m10",
-  },
-  {
-    name: "Ms. S. Juliet Preena",
-    designation: "Teaching Fellow",
-    extnNo: 6440,
-    areaOfInterest: "Probability, Stochastic Process, Wireless Sensor Networks",
-    email: "julietpreena@mitindia.edu",
   },
 ];
 

@@ -24,7 +24,7 @@ const data = [
     email: "sjay.r35@gmail.com, ars_jayanth@mitindia.edu",
     areaOfInterest: "Speaking Skills",
     image: "/static/images/faculty/teaching/english/jayanth.JPG",
-    detailUrl: "/faculty/profile/e1"
+    detailUrl: "/faculty/profile/e1",
   },
   {
     name: "Ms. I.Elisha",
@@ -34,7 +34,7 @@ const data = [
     areaOfInterest:
       "Postcolonial view of Amitav Gosh's Glass Palace and Calcutta Chromosome",
     image: "/static/images/faculty/teaching/english/elisha.JPG",
-    detailUrl: "/faculty/profile/e2"
+    detailUrl: "/faculty/profile/e2",
   },
   {
     name: "Ms. P. Bharathi",
@@ -43,7 +43,7 @@ const data = [
     email: "baarti.sarathy@gmail.com",
     areaOfInterest: "ELT",
     image: "/static/images/faculty/teaching/english/bharathi.JPG",
-    detailUrl: "/faculty/profile/e3"
+    detailUrl: "/faculty/profile/e3",
   },
   {
     name: "Ms. S. Maria Bridget Jenitta",
@@ -53,16 +53,7 @@ const data = [
     areaOfInterest:
       "ELT, Comparative Literature, Psychology, Eco criticism, War Literature",
     image: "/static/images/faculty/teaching/english/mariaBridgetJenitta.JPG",
-    detailUrl: "/faculty/profile/e4"
-  },
-  {
-    name: "Ms.G.Preethi",
-    designation: "Teaching Fellow",
-    areaOfInterest: "",
-    extnNo: 6438,
-    email: "gpreethi92@gmail.com",
-    image: "/static/images/faculty/teaching/english/preethi.JPG",
-    detailUrl: "/faculty/profile/e5"
+    detailUrl: "/faculty/profile/e4",
   },
 ];
 

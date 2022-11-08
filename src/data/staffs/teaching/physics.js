@@ -36,14 +36,6 @@ const data = [
     email: "jrramajothi@annauniv.edu",
   },
   {
-    name: "Ms. B. Nisha",
-    designation: "Teaching Fellow",
-    extnNo: 6137,
-    areaOfInterest: "Material science",
-    email: "nishasridhish@gmail.com",
-    image: "/static/images/faculty/teaching/physics/nisha.JPG",
-  },
-  {
     name: "Dr. N. Abdul Kalam",
     designation: "Teaching Fellow",
     extnNo: 9094143657,
