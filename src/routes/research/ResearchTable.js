@@ -2,7 +2,7 @@ const ResearchTable = ({ data }) => {
   return (
     <div className="mt-3 table-responsive">
       <table className="table table-hover table-striped table-bordered">
-        <thead>
+        <thead className="table-dark">
           <tr>
             <th>S. No.</th>
             <th>Discipline</th>

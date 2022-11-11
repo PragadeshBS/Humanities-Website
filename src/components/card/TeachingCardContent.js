@@ -16,7 +16,12 @@ function TeachingCardContent({ content }) {
         {staff.detailUrl && (
           <div id="profile-expand">
             {staff.externalDetail ? (
-              <a style={{color: "inherit"}} href={staff.detailUrl} target="_blank" rel="noreferrer">
+              <a
+                style={{ color: "inherit" }}
+                href={staff.detailUrl}
+                target="_blank"
+                rel="noreferrer"
+              >
                 <i className="bi bi-chevron-right"></i>
               </a>
             ) : (
@@ -52,6 +57,17 @@ function TeachingCardContent({ content }) {
             <span className="card-content h6">{staff.extnNo}</span>
           )}
         </div>
+        {staff.academicaLink && (
+          <a
+            href={staff.academicaLink}
+            target="_blank"
+            rel="noreferrer"
+            className="mt-1 btn px-3"
+            id="academica-profile-link"
+          >
+            Academica Profile <i class="bi bi-box-arrow-up-right"></i>
+          </a>
+        )}
       </div>
     </div>
   );

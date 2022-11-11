@@ -7,8 +7,9 @@ const data = [
     areaOfInterest:
       "Solid-state Luminescence, Radioactivity and Applied spectroscopy",
     image: "/static/images/faculty/teaching/physics/ponnusamy.JPG",
-    detailUrl: "https://www.auegov.ac.in/HomePage?Auth=wbVyQUk=",
-    externalDetail: true,
+    // detailUrl: "https://www.auegov.ac.in/HomePage?Auth=wbVyQUk=",
+    // externalDetail: true,
+    academicaLink: "https://www.auegov.ac.in/HomePage?Auth=wbVyQUk",
   },
   {
     name: "Dr. R. Murugaraj",
@@ -17,8 +18,9 @@ const data = [
     areaOfInterest:
       "Materials science, Electronic ceramics, solid state ionics",
     email: "r.murugaraj@gmail.com",
-    detailUrl: "https://www.auegov.ac.in/HomePage/?Auth=wbN5QUo=",
-    externalDetail: true,
+    // detailUrl: "https://www.auegov.ac.in/HomePage/?Auth=wbN5QUo=",
+    // externalDetail: true,
+    academicaLink: "https://www.auegov.ac.in/HomePage/?Auth=wbN5QUo",
   },
   {
     name: "Dr. D. Geetha",
@@ -27,6 +29,7 @@ const data = [
     email: "geetha@mitindia.edu",
     areaOfInterest: "Material science, nanotechnology",
     image: "/static/images/faculty/teaching/physics/geetha.JPG",
+    academicaLink: "https://www.auegov.ac.in/HomePage?Auth=wbVxQks",
   },
   {
     name: "Dr. J. Ramajothi",

@@ -21,8 +21,9 @@ const data = [
     email: "arasu.math@gmail.com",
     image: "/static/images/faculty/teaching/mathematics/anbarasu.JPG",
     areaOfInterest: "DNA Computing",
-    detailUrl: "https://www.auegov.ac.in/HomePage?Auth=wbd2R0w=",
-    externalDetail: true,
+    // detailUrl: "https://www.auegov.ac.in/HomePage?Auth=wbd2R0w=",
+    // externalDetail: true,
+    academicaLink: "https://www.auegov.ac.in/HomePage?Auth=wbd2R0w",
   },
   {
     name: "Dr. G. Muniasamy",
@@ -31,8 +32,9 @@ const data = [
     extnNo: 6125,
     email: "gmuniasamy32@gmail.com",
     image: "/static/images/faculty/teaching/mathematics/muniasamy.JPG",
-    detailUrl: "https://www.auegov.ac.in/HomePage?Auth=wbtzQ0Y=",
-    externalDetail: true,
+    // detailUrl: "https://www.auegov.ac.in/HomePage?Auth=wbtzQ0Y=",
+    // externalDetail: true,
+    academicaLink: "https://www.auegov.ac.in/HomePage?Auth=wbtzQ0Y=",
   },
   {
     name: "Dr. A. Rathinasamy",
@@ -83,6 +85,7 @@ const data = [
     email: "hariletchumi1995@gmail.com",
     image: "/static/images/faculty/teaching/mathematics/hariLetchumi.JPG",
     detailUrl: "/faculty/profile/m5",
+    academicaLink: "https://www.auegov.ac.in/HomePage?Auth=wLJzRUy+",
   },
   {
     name: "Ms. A. K. Rajalakshmi",
@@ -92,6 +95,7 @@ const data = [
     image: "/static/images/faculty/teaching/mathematics/rajalakshmi.JPG",
     areaOfInterest: "Linear Algebra",
     detailUrl: "/faculty/profile/m6",
+    academicaLink: "https://www.auegov.ac.in/HomePage?Auth=wLJzRUyx",
   },
   {
     name: "Ms. J. Sahaya Rekha",

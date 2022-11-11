@@ -6,6 +6,7 @@ const data = [
     email: "kmveera@mitindia.edu",
     areaOfInterest: "Corrosion, Surface science & engineering",
     image: "/static/images/faculty/teaching/chemistry/veerabadran.JPG",
+    academicaLink: "https://www.auegov.ac.in/HomePage?Auth=wbNzRUw",
   },
   {
     name: "Dr. D. Meenakshi",
@@ -13,7 +14,7 @@ const data = [
     extnNo: 9444229952,
     areaOfInterest: "Composites and Green synthesis",
     email: "prasha05@gmail.com",
-    detailUrl: "/faculty/profile/c8"
+    detailUrl: "/faculty/profile/c8",
   },
   {
     name: "Dr. S. Vellaichamy",
@@ -22,7 +23,7 @@ const data = [
     email: "vellaichamy.sebastian@gmail.com",
     areaOfInterest: "Environmental chemistry",
     image: "/static/images/faculty/teaching/chemistry/vellaichamy.JPG",
-    detailUrl: "/faculty/profile/c7"
+    detailUrl: "/faculty/profile/c7",
   },
   {
     name: "Dr. N. Balamurugapandian",
@@ -31,16 +32,17 @@ const data = [
     email: "nbmpsha@gmail.com",
     image: "/static/images/faculty/teaching/chemistry/balamurugapandian.JPG",
     areaOfInterest: "",
-    detailUrl: "/faculty/profile/c6"
+    detailUrl: "/faculty/profile/c6",
   },
   {
     name: "Ms. K. N. Vidhya",
     designation: "Teaching Fellow",
     extnNo: 9176625029,
     email: "knvidhya@gmail.com",
-    areaOfInterest: "Catalysis, Photochemistry, Inorganic chemistry, Polymer chemistry",
+    areaOfInterest:
+      "Catalysis, Photochemistry, Inorganic chemistry, Polymer chemistry",
     image: "/static/images/faculty/teaching/chemistry/vidhya.JPG",
-    detailUrl: "/faculty/profile/c5"
+    detailUrl: "/faculty/profile/c5",
   },
   {
     name: "Mr. H. Venkatasubramanian",
@@ -49,7 +51,8 @@ const data = [
     email: "hvschem@gmail.com",
     areaOfInterest: "Medical organic chemistry",
     image: "/static/images/faculty/teaching/chemistry/venkatasubramanian.JPG",
-    detailUrl: "/faculty/profile/c4"
+    detailUrl: "/faculty/profile/c4",
+    academicaLink: "https://www.auegov.ac.in/HomePage?Auth=wLJwRU6+",
   },
   {
     name: "Mrs. V. Jeevitha",
@@ -58,7 +61,8 @@ const data = [
     email: "princejeevitha@gmail.com",
     areaOfInterest: "Polymer chemistry-Biomaterials",
     image: "/static/images/faculty/teaching/chemistry/jeevitha.JPG",
-    detailUrl: "/faculty/profile/c3"
+    detailUrl: "/faculty/profile/c3",
+    academicaLink: "https://www.auegov.ac.in/HomePage?Auth=wLJwRkm3",
   },
   {
     name: "Dr. R. Shanmugam",
@@ -67,16 +71,19 @@ const data = [
     email: "gymshanmugam@gmail.com",
     areaOfInterest: "Electrochemical biosensor applications",
     image: "/static/images/faculty/teaching/chemistry/shanmugam.JPG",
-    detailUrl: "/faculty/profile/c2"
+    detailUrl: "/faculty/profile/c2",
+    academicaLink: "https://www.auegov.ac.in/HomePage?Auth=wLJzR0i2",
   },
   {
     name: "Ms. G. Durga Devi",
     designation: "Teaching Fellow",
     extnNo: "9790700012",
     image: "/static/images/faculty/teaching/chemistry/durgaDevi.JPG",
-    areaOfInterest: "Computational Chemistry, Spectroscopy and Environmental Science",
+    areaOfInterest:
+      "Computational Chemistry, Spectroscopy and Environmental Science",
     email: "ganmapons@gmail.com",
-    detailUrl: "/faculty/profile/c1"
+    detailUrl: "/faculty/profile/c1",
+    academicaLink: "https://www.auegov.ac.in/HomePage?Auth=wLJzR0i1",
   },
 ];
 
