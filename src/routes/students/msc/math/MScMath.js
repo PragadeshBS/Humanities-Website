@@ -4,6 +4,7 @@ import students2018 from "../../../../data/students/MSc/math/2018";
 import students2019 from "../../../../data/students/MSc/math/2019";
 import students2020 from "../../../../data/students/MSc/math/2020";
 import students2021 from "../../../../data/students/MSc/math/2021";
+import students2022 from "../../../../data/students/MSc/math/2022";
 import Title from "../../../../components/Title";
 import SelectedContent from "../../../../components/selectedContent/SelectedContent";
 import { useEffect } from "react";
@@ -20,6 +21,7 @@ const MScMath = () => {
     2019: students2019,
     2020: students2020,
     2021: students2021,
+    2022: students2022,
   };
   return (
     <div className="container mb-5">

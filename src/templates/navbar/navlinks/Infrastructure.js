@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-const Facilities = () => {
+const Infrastructure = () => {
   return (
     <li className="nav-item dropdown">
       <a
@@ -10,7 +10,7 @@ const Facilities = () => {
         className="nav-link navbarLink dropdown-toggle"
         data-bs-display="static"
       >
-        Facilities
+        Infrastructure
       </a>
       <ul className="dropdown-menu">
         <li>
@@ -28,4 +28,4 @@ const Facilities = () => {
   );
 };
 
-export default Facilities;
+export default Infrastructure;

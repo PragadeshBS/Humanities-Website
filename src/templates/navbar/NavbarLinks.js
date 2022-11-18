@@ -1,4 +1,4 @@
-import Facilities from "./navlinks/Facilities";
+import Infrastructure from "./navlinks/Infrastructure";
 import People from "./navlinks/People";
 import Research from "./navlinks/Research";
 import NavbarLink from "./NavbarLink";
@@ -6,14 +6,21 @@ import NavbarLink from "./NavbarLink";
 const NavbarLinks = () => {
   return (
     <>
-      <NavbarLink text="HOD's Desk" link="/hod" />
       <NavbarLink text="Vision &amp; Mission" link="/vision-mission" />
+      <NavbarLink text="HOD's Desk" link="/hod" />
       <People />
-      <Facilities />
-      <NavbarLink text="Courses" link="/courses" />
+      <NavbarLink text="Academics" link="/courses" />
+      <Infrastructure />
       <Research />
-      <NavbarLink text="Annual Report" link="/annual-report" />
-      <NavbarLink text="Contact" link="/contact" />
+      <NavbarLink text="Placements" link="/" />
+      <NavbarLink text="Students" link="/" />
+      <NavbarLink text="Achievements" link="/" />
+      <NavbarLink text="Events" link="/" />
+      <NavbarLink text="Alumni" link="/" />
+      {/* <NavbarLink text="Department Library" link="/" /> */}
+      <NavbarLink text="Archive" link="/" />
+      {/* <NavbarLink text="Annual Report" link="/annual-report" /> */}
+      {/* <NavbarLink text="Contact" link="/contact" /> */}
     </>
   );
 };
