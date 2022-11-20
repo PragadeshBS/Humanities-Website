@@ -10,27 +10,27 @@ import Research from "./contents/research";
 import Researchprojects from "./contents/researchprojects";
 import Title from "./contents/title";
 import Document from "./document";
-const Report=()=>{
-    return (
-        <div className="container mt-5 mb-5">
-        <div className="row">
-          <Title/>
-          <Document/>
-          <div className="accordion" id="accordionPanelsStayOpenExample">
-            <Professors/>
-            <Degrees/>
-            <Researchprojects/>
-            <Industrial/>
-            <ContinuousTraining/>
-            <Research/>
-            <Journals/>
-            <Books/>
-            <Patents/>
-            <Achievements/>
-          </div>
+const Report = () => {
+  return (
+    <div className="container mt-5 mb-5">
+      <div className="row">
+        <Title />
+        <Document />
+        <div className="accordion" id="accordionPanelsStayOpenExample">
+          <Professors />
+          <Degrees />
+          <Researchprojects />
+          <Industrial />
+          <ContinuousTraining />
+          <Research />
+          <Journals />
+          <Books />
+          <Patents />
+          <Achievements />
         </div>
       </div>
-    )
-}
+    </div>
+  );
+};
 
 export default Report;

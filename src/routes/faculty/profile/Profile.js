@@ -20,7 +20,7 @@ const Profile = () => {
     return <Navigate to="/404" />;
   }
   return (
-    <div className="mb-5">
+    <div className="container mb-5">
       <Title text={data.personalInfo.name} />
       <div className="container row">
         <div className="col-lg-3 py-5" id="profile-sidebar">

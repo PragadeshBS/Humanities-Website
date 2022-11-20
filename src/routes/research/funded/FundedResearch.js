@@ -8,7 +8,7 @@ const FundedResearch = () => {
       "Funded Research Projects | Department of Applied Sciences & Humanities, MIT Campus, Anna University";
   }, []);
   return (
-    <div>
+    <div className="container">
       <Title text="Funded Research Projects" />
       <div className="table-responsive">
         <table className="table table-striped table-bordered table-hover">

@@ -30,7 +30,7 @@ export default function Teaching() {
     setcurSub(data.find((sub) => sub.id === subId));
   };
   return (
-    <div className="mb-5">
+    <div className="container mb-5">
       <Title text="Teaching Staff" />
       <div className="row">
         <SideBar views={data} curView={curSub} changeCurView={changecurSub} />

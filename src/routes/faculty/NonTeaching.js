@@ -8,7 +8,7 @@ export default function NonTeaching() {
       "Non-Teaching Staff | Department of Applied Sciences & Humanities, MIT Campus, Anna University";
   }, []);
   return (
-    <div className="mb-5">
+    <div className="container mb-5">
       <Title text="Non-Teaching Staff" />
       <div className="row">
         <div className="col-sm-12">

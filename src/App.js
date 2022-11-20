@@ -9,7 +9,7 @@ function App() {
     <div>
       <Header />
       <ScrollToTop />
-      <div className="container">
+      <div>
         <Outlet />
       </div>
       <Footer />

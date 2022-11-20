@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import App from "./App";
-import Home from "./routes/Home";
+import Home from "./routes/home/Home";
 import Teaching from "./routes/faculty/Teaching";
 import NonTeaching from "./routes/faculty/NonTeaching";
 import Hod from "./routes/hod";

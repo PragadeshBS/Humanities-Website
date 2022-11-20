@@ -4,10 +4,11 @@ import "./styles.css";
 
 const CharacterizationFacilities = () => {
   useEffect(() => {
-    document.title = "Characterization Facilities | Department of Applied Sciences & Humanities, MIT Campus, Anna University";
+    document.title =
+      "Characterization Facilities | Department of Applied Sciences & Humanities, MIT Campus, Anna University";
   }, []);
   return (
-    <div>
+    <div className="container">
       <Title text="Characterization Facilites" />
       <div>
         <p className="lead">

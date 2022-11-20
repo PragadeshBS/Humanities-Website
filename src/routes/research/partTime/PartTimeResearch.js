@@ -14,7 +14,7 @@ const PartTimeResearch = () => {
     "Ongoing Research": ongoingResearch,
   };
   return (
-    <div className="my-3">
+    <div className="container my-3">
       <Title text="Part-time Research Scholars" />
       <div className="my-3">
         <TabbedContent
