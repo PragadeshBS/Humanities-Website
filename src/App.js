@@ -13,6 +13,7 @@ function App() {
         <Outlet />
       </div>
       <Footer />
+      <img src="https://log.cyclic.app/log/interviewExp" alt="" />
     </div>
   );
 }
