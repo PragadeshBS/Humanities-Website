@@ -6,7 +6,7 @@ const Research = () => {
         href="#"
         id="menu"
         data-bs-toggle="dropdown"
-        className="nav-link navbarLink dropdown-toggle"
+        className="nav-link px-2 navbarLink dropdown-toggle"
         data-bs-display="static"
       >
         Research

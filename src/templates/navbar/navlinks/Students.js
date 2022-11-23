@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-const Infrastructure = () => {
+const Students = () => {
   return (
     <li className="nav-item dropdown">
       <a
@@ -10,22 +10,22 @@ const Infrastructure = () => {
         className="nav-link px-2 navbarLink dropdown-toggle"
         data-bs-display="static"
       >
-        Infrastructure
+        Students
       </a>
       <ul className="dropdown-menu">
         <li>
           <Link to="/infrastructure" className="dropdown-item">
-            Lab
+            UG
           </Link>
         </li>
         <li>
           <Link to="/characterization-facilities" className="dropdown-item">
-            Department Library
+            PG
           </Link>
         </li>
         <li>
           <Link to="/characterization-facilities" className="dropdown-item">
-            Other Facilities
+            Research scholar
           </Link>
         </li>
       </ul>
@@ -33,4 +33,4 @@ const Infrastructure = () => {
   );
 };
 
-export default Infrastructure;
+export default Students;

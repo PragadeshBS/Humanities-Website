@@ -1,9 +1,12 @@
 import { Link } from "react-router-dom";
 const NavbarLink = ({ text, link }) => {
   return (
-    <li className="nav-item">
+    <li
+      className="nav-item mx-1"
+      style={{ display: "flex", alignItems: "center" }}
+    >
       <Link
-        className="nav-link px-1 navbarLink"
+        className="nav-link p-0 navbarLink text-center"
         id="navbarLink"
         aria-current="page"
         to={link}
