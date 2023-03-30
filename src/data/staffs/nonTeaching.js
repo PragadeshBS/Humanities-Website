@@ -1,11 +1,5 @@
 const data = [
   {
-    name: "Mr. M. Srinivasan",
-    designation: "Lab Asst. Chemistry",
-    extnNo: 6139,
-    image: "/static/images/faculty/nonTeaching/srinivasan.JPG",
-  },
-  {
     name: "Ms. M. Durga Selvi",
     designation: "Prof. Asst-II",
     extnNo: 6137,

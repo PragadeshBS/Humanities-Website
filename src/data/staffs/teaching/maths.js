@@ -98,15 +98,6 @@ const data = [
     academicaLink: "https://www.auegov.ac.in/HomePage?Auth=wLJzRUyx",
   },
   {
-    name: "Ms. J. Sahaya Rekha",
-    designation: "Teaching Fellow",
-    extnNo: 6440,
-    email: "rekhajsahaya@gmail.com",
-    areaOfInterest: "Graph Theory",
-    image: "/static/images/faculty/teaching/mathematics/sahayaRekha.JPG",
-    detailUrl: "/faculty/profile/m7",
-  },
-  {
     name: "Ms. M. H. Riath",
     designation: "Teaching Fellow",
     extnNo: 6440,

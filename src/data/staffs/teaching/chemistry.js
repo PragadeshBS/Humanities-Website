@@ -26,15 +26,6 @@ const data = [
     detailUrl: "/faculty/profile/c7",
   },
   {
-    name: "Dr. N. Balamurugapandian",
-    designation: "Teaching Fellow",
-    extnNo: 9940158499,
-    email: "nbmpsha@gmail.com",
-    image: "/static/images/faculty/teaching/chemistry/balamurugapandian.JPG",
-    areaOfInterest: "",
-    detailUrl: "/faculty/profile/c6",
-  },
-  {
     name: "Ms. K. N. Vidhya",
     designation: "Teaching Fellow",
     extnNo: 9176625029,

@@ -7,7 +7,6 @@ const Header = () => {
       <div className="container my-2">
         <div className="top">
           <div>
-            {/* <img src="/static/images/app/mitLogo.png" alt="mit-logo" className="logo-img" /> */}
             <img
               src="/static/images/app/auLogo.png"
               alt="annauniv-logo"
