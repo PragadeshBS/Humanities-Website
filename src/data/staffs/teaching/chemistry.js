@@ -36,7 +36,7 @@ const data = [
     detailUrl: "/faculty/profile/c5",
   },
   {
-    name: "Mr. H. Venkatasubramanian",
+    name: "Dr. H. Venkatasubramanian",
     designation: "Teaching Fellow",
     extnNo: 9941304042,
     email: "hvschem@gmail.com",
@@ -66,7 +66,7 @@ const data = [
     academicaLink: "https://www.auegov.ac.in/HomePage?Auth=wLJzR0i2",
   },
   {
-    name: "Ms. G. Durga Devi",
+    name: "Dr. G. Durga Devi",
     designation: "Teaching Fellow",
     extnNo: "9790700012",
     image: "/static/images/faculty/teaching/chemistry/durgaDevi.JPG",

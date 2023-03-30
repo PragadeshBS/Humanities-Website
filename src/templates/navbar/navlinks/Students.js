@@ -14,18 +14,13 @@ const Students = () => {
       </a>
       <ul className="dropdown-menu">
         <li>
-          <Link to="/infrastructure" className="dropdown-item">
-            UG
+          <Link to="students/msc/math" className="dropdown-item">
+            M.Sc
           </Link>
         </li>
         <li>
-          <Link to="/characterization-facilities" className="dropdown-item">
-            PG
-          </Link>
-        </li>
-        <li>
-          <Link to="/characterization-facilities" className="dropdown-item">
-            Research scholar
+          <Link to="students/mphil/math" className="dropdown-item">
+            M.Phil
           </Link>
         </li>
       </ul>

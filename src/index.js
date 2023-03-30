@@ -18,6 +18,7 @@ import PartTimeResearch from "./routes/research/partTime/PartTimeResearch";
 import FullTimeResearch from "./routes/research/fullTime/FullTimeResearch";
 import Contact from "./routes/contact/Contact";
 import Profile from "./routes/faculty/profile/Profile";
+import BlankPage from "./routes/blank";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -32,6 +33,7 @@ root.render(
           <Route path="non-teaching" element={<NonTeaching />}></Route>
           <Route path="profile/:staffId" element={<Profile />}></Route>
         </Route>
+        <Route path="academics/curriculum" element={<BlankPage />} />
         <Route path="students/mphil/math" element={<MPhilMath />} />
         <Route path="students/msc/math" element={<MScMath />} />
         <Route path="infrastructure" element={<Infrastructure />} />
