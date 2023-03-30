@@ -26,9 +26,6 @@ const NavbarLinks = () => {
       </li>
       <NavbarLink text="Placements" link="/" />
       <li className={`nav-item dropdown ${navStyles.navItem}`}>
-        <Students />
-      </li>
-      <li className={`nav-item dropdown ${navStyles.navItem}`}>
         <Achievements />
       </li>
       <NavbarLink text="Events" link="/" />

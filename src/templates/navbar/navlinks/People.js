@@ -23,6 +23,27 @@ const People = () => {
             Staff
           </Link>
         </li>
+        <li className="dropdown-submenu">
+          <a
+            href="#"
+            data-bs-toggle="dropdown"
+            className="dropdown-item dropdown-toggle"
+          >
+            Students
+          </a>
+          <ul className="dropdown-menu">
+            <li>
+              <Link to="students/msc/math" className="dropdown-item">
+                M.Sc
+              </Link>
+            </li>
+            <li>
+              <Link to="students/mphil/math" className="dropdown-item">
+                M.Phil
+              </Link>
+            </li>
+          </ul>
+        </li>
       </ul>
     </li>
   );
