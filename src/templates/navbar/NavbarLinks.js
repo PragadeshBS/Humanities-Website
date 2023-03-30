@@ -24,7 +24,7 @@ const NavbarLinks = () => {
       <li className={`nav-item dropdown ${navStyles.navItem}`}>
         <Research />
       </li>
-      <NavbarLink text="Placements" link="/" />
+      <NavbarLink text="Placements" link="/placements" />
       <li className={`nav-item dropdown ${navStyles.navItem}`}>
         <Achievements />
       </li>

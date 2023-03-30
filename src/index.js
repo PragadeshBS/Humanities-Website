@@ -19,6 +19,7 @@ import FullTimeResearch from "./routes/research/fullTime/FullTimeResearch";
 import Contact from "./routes/contact/Contact";
 import Profile from "./routes/faculty/profile/Profile";
 import BlankPage from "./routes/blank";
+import Placements from "./routes/placements";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -45,6 +46,7 @@ root.render(
         <Route path="research/funded" element={<FundedResearch />} />
         <Route path="research/part-time" element={<PartTimeResearch />} />
         <Route path="research/full-time" element={<FullTimeResearch />} />
+        <Route path="placements" element={<Placements />} />
         <Route path="annual-report" element={<AnnualReport />} />
         <Route path="contact" element={<Contact />} />
       </Route>
