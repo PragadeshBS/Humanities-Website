@@ -19,7 +19,7 @@ const Academics = () => {
           </Link>
         </li>
         <li>
-          <Link to="/academics/curriculum" className="dropdown-item">
+          <Link to="/page-under-construction" className="dropdown-item">
             Curriculum
           </Link>
         </li>

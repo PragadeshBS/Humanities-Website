@@ -28,9 +28,9 @@ const NavbarLinks = () => {
       <li className={`nav-item dropdown ${navStyles.navItem}`}>
         <Achievements />
       </li>
-      <NavbarLink text="Events" link="/" />
-      <NavbarLink text="Alumni" link="/" />
-      <NavbarLink text="Archive" link="/" />
+      <NavbarLink text="Events" link="/page-under-construction" />
+      <NavbarLink text="Alumni" link="/page-under-construction" />
+      <NavbarLink text="Archive" link="/page-under-construction" />
     </>
   );
 };

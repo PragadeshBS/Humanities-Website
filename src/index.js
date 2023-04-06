@@ -49,6 +49,7 @@ root.render(
         <Route path="placements" element={<Placements />} />
         <Route path="annual-report" element={<AnnualReport />} />
         <Route path="contact" element={<Contact />} />
+        <Route path="page-under-construction" element={<BlankPage />} />
       </Route>
       <Route
         path="*"

@@ -19,7 +19,7 @@ const Infrastructure = () => {
           </Link>
         </li>
         <li>
-          <Link to="/characterization-facilities" className="dropdown-item">
+          <Link to="/page-under-construction" className="dropdown-item">
             Department Library
           </Link>
         </li>

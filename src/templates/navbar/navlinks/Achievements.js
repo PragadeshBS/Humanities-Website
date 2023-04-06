@@ -14,12 +14,12 @@ const Achievements = () => {
       </a>
       <ul className="dropdown-menu">
         <li>
-          <Link to="/" className="dropdown-item">
+          <Link to="/page-under-construction" className="dropdown-item">
             Staff
           </Link>
         </li>
         <li>
-          <Link to="/" className="dropdown-item">
+          <Link to="/page-under-construction" className="dropdown-item">
             Students
           </Link>
         </li>
