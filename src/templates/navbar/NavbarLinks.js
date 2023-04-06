@@ -13,20 +13,30 @@ const NavbarLinks = () => {
       <NavbarLink text="Vision&amp; Mission" link="/vision-mission" />
       <NavbarLink text="HOD's Desk" link="/hod" />
       <li className={`nav-item dropdown ${navStyles.navItem}`}>
-        <People />
+        <ul style={{ listStyleType: "none" }} className="m-0 p-0">
+          <People />
+        </ul>
       </li>
       <li className={`nav-item dropdown ${navStyles.navItem}`}>
-        <Academics />
+        <ul style={{ listStyleType: "none" }} className="m-0 p-0">
+          <Academics />
+        </ul>
       </li>
       <li className={`nav-item dropdown ${navStyles.navItem}`}>
-        <Infrastructure />
+        <ul style={{ listStyleType: "none" }} className="m-0 p-0">
+          <Infrastructure />
+        </ul>
       </li>
       <li className={`nav-item dropdown ${navStyles.navItem}`}>
-        <Research />
+        <ul style={{ listStyleType: "none" }} className="m-0 p-0">
+          <Research />
+        </ul>
       </li>
       <NavbarLink text="Placements" link="/placements" />
       <li className={`nav-item dropdown ${navStyles.navItem}`}>
-        <Achievements />
+        <ul style={{ listStyleType: "none" }} className="m-0 p-0">
+          <Achievements />
+        </ul>
       </li>
       <NavbarLink text="Events" link="/page-under-construction" />
       <NavbarLink text="Alumni" link="/page-under-construction" />
