@@ -65,7 +65,7 @@ function TeachingCardContent({ content }) {
             className="mt-1 btn px-3"
             id="academica-profile-link"
           >
-            Academica Profile <i class="bi bi-box-arrow-up-right"></i>
+            Academica Profile <i className="bi bi-box-arrow-up-right"></i>
           </a>
         )}
       </div>
