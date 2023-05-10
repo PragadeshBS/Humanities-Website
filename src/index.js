@@ -20,6 +20,7 @@ import Contact from "./routes/contact/Contact";
 import Profile from "./routes/faculty/profile/Profile";
 import BlankPage from "./routes/blank";
 import Placements from "./routes/placements";
+import UgStudents from "./routes/students/ug/UgStudents";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -37,6 +38,7 @@ root.render(
         <Route path="academics/curriculum" element={<BlankPage />} />
         <Route path="students/mphil/math" element={<MPhilMath />} />
         <Route path="students/msc/math" element={<MScMath />} />
+        <Route path="students/ug" element={<UgStudents />} />
         <Route path="infrastructure" element={<Infrastructure />} />
         <Route
           path="characterization-facilities"

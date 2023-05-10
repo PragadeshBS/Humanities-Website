@@ -33,6 +33,11 @@ const People = () => {
           </a>
           <ul className="dropdown-menu">
             <li>
+              <Link to="students/ug" className="dropdown-item">
+                UG
+              </Link>
+            </li>
+            <li>
               <Link to="students/msc/math" className="dropdown-item">
                 M.Sc
               </Link>
