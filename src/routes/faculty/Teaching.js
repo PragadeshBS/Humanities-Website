@@ -17,6 +17,7 @@ export default function Teaching() {
     { id: 1, name: "Chemistry", staffs: chemistryStaffs },
     { id: 2, name: "Physics", staffs: physicsStaffs },
     { id: 3, name: "Mathematics", staffs: mathStaffs },
+    { id: 4, name: "Tamil", staffs: [] },
   ];
   const [curSub, setcurSub] = useState(
     data[

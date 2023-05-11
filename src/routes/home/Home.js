@@ -13,8 +13,9 @@ function Home() {
       </div>
       <div className="container">
         <img
-          src="static/images/home/slides.gif"
-          className="img-fluid slides"
+          src="static/images/home/dash-hero.jpg"
+          className="img-fluid slides rounded my-3"
+          style={{ maxWidth: "1000px" }}
           alt="slides"
         />
         <p className="mb-3">

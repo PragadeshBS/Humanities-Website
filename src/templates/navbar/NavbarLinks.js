@@ -3,7 +3,6 @@ import People from "./navlinks/People";
 import Research from "./navlinks/Research";
 import NavbarLink from "./NavbarLink";
 import Academics from "./navlinks/Academics";
-import Students from "./navlinks/Students";
 import Achievements from "./navlinks/Achievements";
 import navStyles from "./navStyles.module.css";
 

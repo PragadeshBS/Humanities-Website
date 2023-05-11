@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-xl navbar-dark accent-bg">
       <div className="container">
-        <Link className="nav-link" style={{ color: "white" }} to="/">
+        <Link className="nav-link fw-bold" style={{ color: "white" }} to="/">
           Home
         </Link>
         <button

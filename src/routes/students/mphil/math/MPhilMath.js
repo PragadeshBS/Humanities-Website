@@ -22,7 +22,7 @@ const MPhilMath = () => {
       <Title text="M.Phil Students" />
       <SelectedContent
         content={content}
-        defaultView={2016}
+        defaultView={2019}
         contentType="students"
         selectTitle="Year of Admission"
       />

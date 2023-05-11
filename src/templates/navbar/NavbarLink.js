@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 const NavbarLink = ({ text, link }) => {
   return (
     <li
-      className="nav-item mx-1"
+      className="nav-item mx-1 fw-bold"
       style={{ display: "flex", alignItems: "center" }}
     >
       <Link
