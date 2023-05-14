@@ -64,9 +64,14 @@ const Stats = () => {
       }}
       className={`mt-3 ${classes.stats}`}
     >
-      <div className="row text-center align-items-center justify-content-center me-0">
-        {statsList.map((stat) => (
-          <StatItem label={stat.label} value={stat.value} icon={stat.icon} />
+      <div className="row text-center align-items-center justify-content-center me-0 py-4">
+        {statsList.map((stat, index) => (
+          <StatItem
+            key={index}
+            label={stat.label}
+            value={stat.value}
+            icon={stat.icon}
+          />
         ))}
       </div>
     </div>
