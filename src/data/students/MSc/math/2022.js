@@ -17,7 +17,7 @@ const data = [
   {
     "S.No": 4,
     reg: 2022607004,
-    name: "VAISHBNAVI S",
+    name: "VAISHNAVI S",
   },
   {
     "S.No": 5,

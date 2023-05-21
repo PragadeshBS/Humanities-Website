@@ -27,7 +27,7 @@ const data = [
     detailUrl: "/faculty/profile/e1",
   },
   {
-    name: "Ms. I.Elisha",
+    name: "Mr. I.Elisha",
     designation: "Teaching Fellow",
     extnNo: 6444,
     email: "elizmartiz@gmail.com",
