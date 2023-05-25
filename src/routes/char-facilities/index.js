@@ -56,8 +56,6 @@ const CharacterizationFacilities = () => {
               <a
                 href="/static/docs/charFacilities/sem_form.docx"
                 className="text-decoration-none"
-                target="_blank"
-                rel="noreferrer"
               >
                 <span className="pe-3">Form</span>
                 <i className="text-dark bi bi-filetype-pdf"></i>
