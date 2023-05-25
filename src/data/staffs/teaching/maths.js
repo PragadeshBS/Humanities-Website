@@ -46,7 +46,7 @@ const data = [
   {
     name: "Dr. K. Ambika",
     designation: "Teaching Fellow",
-    areaOfInterest: "Algebra",
+    areaOfInterest: "Queuing Theory",
     extnNo: "6443",
     email: "ambisavi.ambika@gmail.com ",
   },

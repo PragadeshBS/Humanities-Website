@@ -54,7 +54,7 @@ const CharacterizationFacilities = () => {
             </li>
             <li>
               <a
-                href="https://mitindia.edu/images/SEM_FORM.pdf"
+                href="/static/docs/charFacilities/sem_form.docx"
                 className="text-decoration-none"
                 target="_blank"
                 rel="noreferrer"
