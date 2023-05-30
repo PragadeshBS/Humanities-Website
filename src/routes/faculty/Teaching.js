@@ -6,6 +6,7 @@ import englishStaffs from "../../data/staffs/teaching/english";
 import chemistryStaffs from "../../data/staffs/teaching/chemistry";
 import physicsStaffs from "../../data/staffs/teaching/physics";
 import mathStaffs from "../../data/staffs/teaching/maths";
+import tamilStaffs from "../../data/staffs/teaching/tamil";
 
 export default function Teaching() {
   useEffect(() => {
@@ -17,7 +18,7 @@ export default function Teaching() {
     { id: 1, name: "Chemistry", staffs: chemistryStaffs },
     { id: 2, name: "Physics", staffs: physicsStaffs },
     { id: 3, name: "Mathematics", staffs: mathStaffs },
-    { id: 4, name: "Tamil", staffs: [] },
+    { id: 4, name: "Tamil", staffs: tamilStaffs },
   ];
   const [curSub, setcurSub] = useState(
     data[

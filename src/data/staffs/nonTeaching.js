@@ -1,5 +1,10 @@
 const data = [
   {
+    name: "Mr. Rajasekaran",
+    designation: "Prof. Asst",
+    extnNo: 6137,
+  },
+  {
     name: "Ms. M. Durga Selvi",
     designation: "Prof. Asst-II",
     extnNo: 6137,
