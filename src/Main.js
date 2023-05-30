@@ -19,6 +19,7 @@ import Profile from "./routes/faculty/profile/Profile";
 import BlankPage from "./routes/blank";
 import Placements from "./routes/placements";
 import UgStudents from "./routes/students/ug/UgStudents";
+import Library from "./routes/infrastructure/library";
 
 const Main = () => {
   return (
@@ -37,7 +38,10 @@ const Main = () => {
           <Route path="students/mphil/math" element={<MPhilMath />} />
           <Route path="students/msc/math" element={<MScMath />} />
           <Route path="students/ug" element={<UgStudents />} />
-          <Route path="infrastructure" element={<Infrastructure />} />
+          <Route path="infrastructure">
+            <Route index element={<Infrastructure />} />
+            <Route path="library" element={<Library />} />
+          </Route>
           <Route
             path="characterization-facilities"
             element={<CharacterizationFacilities />}
