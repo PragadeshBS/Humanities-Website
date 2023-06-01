@@ -6,6 +6,7 @@ const data = [
     email: "baskarbabujee@yahoo.com",
     image: "/static/images/faculty/teaching/mathematics/baskarBabujee.JPG",
     areaOfInterest: " Graph Theory, Formal Languages and Automata Theory",
+    academicaLink: "https://www.auegov.ac.in/HomePage?Auth=wbFySU4=",
   },
   {
     name: "Dr. D. J. Prabhakaran",
