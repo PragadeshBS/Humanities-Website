@@ -5,6 +5,7 @@ const data = [
     extnNo: "-",
     email: "-",
     areaOfInterest: "-",
+    image: "/static/images/faculty/teaching/tamil/poovai_subramanian.JPG",
   },
   {
     name: "Ms. Seliyammal",
@@ -12,6 +13,7 @@ const data = [
     extnNo: "-",
     email: "-",
     areaOfInterest: "-",
+    image: "/static/images/faculty/teaching/tamil/seliyammal.JPG",
   },
 ];
 

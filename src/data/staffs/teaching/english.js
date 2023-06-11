@@ -10,7 +10,7 @@ const data = [
   },
   {
     name: "Dr. J. Lourdes Joavani",
-    designation: "Asst. Professor",
+    designation: "Assistant Professor (Sr. gr)",
     extnNo: 6436,
     email: "joavani@gmail.com",
     areaOfInterest:

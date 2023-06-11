@@ -13,7 +13,7 @@ const data = [
   },
   {
     name: "Dr. R. Murugaraj",
-    designation: "Asso. Professor",
+    designation: "Professor",
     extnNo: 6145,
     areaOfInterest:
       "Materials science, Electronic ceramics, solid state ionics",
@@ -24,7 +24,7 @@ const data = [
   },
   {
     name: "Dr. D. Geetha",
-    designation: "Asst. Professor(SG)",
+    designation: "Associate Professor",
     extnNo: 6137,
     email: "geetha@mitindia.edu",
     areaOfInterest: "Material science, nanotechnology",
