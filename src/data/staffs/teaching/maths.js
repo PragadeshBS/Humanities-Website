@@ -1,7 +1,7 @@
 const data = [
   {
     name: "Dr. J. Baskar Babujee",
-    designation: "Asso. Professor",
+    designation: "Professor",
     extnNo: 6379,
     email: "baskarbabujee@yahoo.com",
     image: "/static/images/faculty/teaching/mathematics/baskarBabujee.JPG",
@@ -28,7 +28,7 @@ const data = [
   },
   {
     name: "Dr. G. Muniasamy",
-    designation: "Asst. Professor",
+    designation: "Assistant Professor (Sr. gr)",
     areaOfInterest: "Combinatorial Representation Theory",
     extnNo: 6125,
     email: "gmuniasamy32@gmail.com",
@@ -39,7 +39,7 @@ const data = [
   },
   {
     name: "Dr. A. Rathinasamy",
-    designation: "Assistant Professor",
+    designation: "Assistant Professor (Sr. gr)",
     areaOfInterest: "",
     extnNo: 6446,
     email: "Rathina_anbu@yahoo.com",

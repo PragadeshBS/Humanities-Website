@@ -1,7 +1,7 @@
 const data = [
   {
     name: "Dr. K. M.Veerabadran",
-    designation: "Asst. Professor (SG)",
+    designation: "Assistant Professor (Sl. gr)",
     extnNo: 6142,
     email: "kmveera@mitindia.edu",
     areaOfInterest: "Corrosion, Surface science & engineering",
