@@ -50,6 +50,8 @@ const data = [
     areaOfInterest: "Queuing Theory",
     extnNo: "6443",
     email: "ambisavi.ambika@gmail.com ",
+    image: "/static/images/faculty/teaching/mathematics/Ambika.JPG",
+    academicaLink: "https://www.auegov.ac.in/HomePage?Auth=wLJwQk2z",
   },
   {
     name: "Mr. S. Soundar Rajan",
