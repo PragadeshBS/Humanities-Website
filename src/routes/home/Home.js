@@ -1,5 +1,6 @@
 import { useEffect } from "react";
 import Stats from "../../components/home/Stats";
+import Notification from "../../components/notification/Notification";
 
 function Home() {
   useEffect(() => {
@@ -8,8 +9,11 @@ function Home() {
   }, []);
   return (
     <div>
-      <div className="display-6 text-center mt-3">
+      <div className="display-5 text-center mt-3">
         Welcome to the Department of Applied Sciences and Humanities
+      </div>
+      <div className="container">
+        <Notification />
       </div>
       <div className="container">
         <img
