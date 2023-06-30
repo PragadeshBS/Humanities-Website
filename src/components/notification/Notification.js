@@ -26,6 +26,7 @@ export default function Notification() {
                 href={notification.link}
                 className="d-block mb-2"
                 style={{ textDecoration: "none", color: "#000" }}
+                download
               >
                 📢 {notification.text}
               </a>
