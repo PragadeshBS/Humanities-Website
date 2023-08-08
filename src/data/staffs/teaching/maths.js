@@ -43,6 +43,7 @@ const data = [
     areaOfInterest: "",
     extnNo: 6446,
     email: "Rathina_anbu@yahoo.com",
+    academicaLink: "https://www.auegov.ac.in/HomePage?Auth=wbtzRU8=",
   },
   {
     name: "Dr. K. Ambika",
@@ -61,6 +62,7 @@ const data = [
     email: "soundarrajan@mitindia.edu",
     image: "/static/images/faculty/teaching/mathematics/soundarRajan.JPG",
     detailUrl: "/faculty/profile/m1",
+    academicaLink: "https://www.auegov.ac.in/HomePage?Auth=wLJzQEiz",
   },
   {
     name: "Ms. G. Surya",
@@ -118,6 +120,7 @@ const data = [
     image: "/static/images/faculty/teaching/mathematics/nithya.JPG",
     areaOfInterest: "Fuzzy Analysis",
     detailUrl: "/faculty/profile/m9",
+    academicaLink: "https://www.auegov.ac.in/HomePage?Auth=wLJzRUu2",
   },
   {
     name: "Mr. D. Anand",
