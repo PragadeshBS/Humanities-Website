@@ -108,6 +108,7 @@ const data = [
     areaOfInterest: "Ordinary Differential Equations",
     image: "/static/images/faculty/teaching/mathematics/riath.JPG",
     detailUrl: "/faculty/profile/m8",
+    academicaLink: "https://www.auegov.ac.in/HomePage?Auth=wLJzRUyw",
   },
   {
     name: "Ms. G. Nithya",
