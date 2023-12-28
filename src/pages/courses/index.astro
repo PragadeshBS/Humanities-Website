@@ -1,0 +1,48 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import Title from "../../components/Title.astro";
+---
+
+<Layout title="Courses Offered">
+  <div class="container">
+    <div class="row responsive mb-5">
+      <Title text="Courses Offered" />
+      <div class="table-responsive">
+        <table class="table table-hover table-striped table-bordered">
+          <thead class="table-dark">
+            <tr class="fs-5">
+              <th>Degree</th>
+              <th>Name of the Program</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>PG</td>
+              <td>M.Sc Applied Mathematics</td>
+            </tr>
+            <tr>
+              <td>PG</td>
+              <td>M.Phil Mathematics</td>
+            </tr>
+            <tr>
+              <td>Ph.d</td>
+              <td>English</td>
+            </tr>
+            <tr>
+              <td>Ph.d</td>
+              <td>Mathematics</td>
+            </tr>
+            <tr>
+              <td>Ph.d</td>
+              <td>Physical Sciences</td>
+            </tr>
+            <tr>
+              <td>Ph.d</td>
+              <td>Chemical Sciences</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</Layout>

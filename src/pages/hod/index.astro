@@ -1,0 +1,63 @@
+---
+import Title from "../../components/Title.astro";
+import Layout from "../../layouts/Layout.astro";
+---
+
+<Layout title="Head of the Department">
+  <div class="container my-3">
+    <Title text="HOD's Desk" />
+    <div class="display-6 mb-3">Dr. V. Ponnusamy</div>
+    <div class="hod-content">
+      <div class="flex-image">
+        <img
+          src="/static/images/HOD/hod.jpg"
+          alt="HOD"
+          id="hodImg"
+          class="img-fluid mb-3"
+        />
+      </div>
+      <div class="hod-text">
+        <div class="hod-message p-4">
+          The Department of Applied Sciences &amp; Humanities has four
+          disciplines: Mathematics, Physics, Chemistry and English. Powered by
+          enthusiastic and experienced faculty members, the department has made
+          rapid strides in fostering engineering education that blends
+          scientifically designed doses of academics with co and extracurricular
+          activities guaranteed to promote the all-round development and growth
+          of its students. The department offers M.Sc Mathematics and M.Phil
+          Mathematics courses, besides catering to the needs of all UG and PG
+          Programmes of all engineering and science students. It also offers
+          Ph.D and M.S by Research Programmes.
+        </div>
+      </div>
+    </div>
+  </div>
+</Layout>
+
+<style>
+  .hod-content {
+    display: flex;
+    align-items: flex-start;
+    gap: 5%;
+  }
+  #hodImg {
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 10px;
+  }
+  .hod-text {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    line-height: 200%;
+    background-color: rgb(224, 201, 166, 0.7);
+    border-radius: 10px;
+    box-shadow:
+      rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
+      rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+  }
+
+  @media only screen and (max-width: 992px) {
+    .hod-content {
+      flex-direction: column;
+    }
+  }
+</style>

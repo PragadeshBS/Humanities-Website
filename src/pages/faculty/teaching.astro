@@ -1,0 +1,12 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import Title from "../../components/Title.astro";
+import TeachingStaff from "./_TeachingStaff.jsx";
+---
+
+<Layout title="Teaching Faculty">
+  <div class="container mb-5">
+    <Title text="Teaching Staff" />
+    <TeachingStaff client:only />
+  </div>
+</Layout>

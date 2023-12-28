@@ -1,0 +1,91 @@
+---
+import Title from "../../components/Title.astro";
+import Layout from "../../layouts/Layout.astro";
+---
+
+<Layout title="Vision & Mission">
+  <div class="container">
+    <Title text="Vision & Mission" />
+    <div class="vm-content my-5">
+      <div class="vision p-3 text-center">
+        <div class="vision-body pb-5">
+          <h1 class="display-4 pb-3">Vision</h1>
+          <div class="lead">
+            To excel in various fields of Applied Sciences and Humanities
+            through research and project management and to empower the students
+            with strong conceptual knowledge.
+          </div>
+        </div>
+      </div>
+      <div class="mission p-3 text-center">
+        <div class="display-4 pb-3">Mission</div>
+        <ol class="mission-list">
+          <li>
+            To impart essential knowledge related to the core and allied
+            disciplines of engineering courses.
+          </li>
+          <li>
+            To provide with the practical skills that are required for the
+            growing dynamic technical industries in tune with the advancements
+            of the Applied Science and Humanities.
+          </li>
+          <li>
+            To sculpt strong personal, technical, research, entrepreneurial and
+            leadership skills.
+          </li>
+          <li>
+            To inculcate professional ethics and encourage lifelong learning in
+            order to contribute to the society.
+          </li>
+        </ol>
+      </div>
+    </div>
+  </div>
+</Layout>
+
+<style>
+  @import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+  .vm-content {
+    display: flex;
+    align-items: stretch;
+    gap: 7%;
+    font-family: "Open Sans", sans-serif;
+  }
+
+  .vision {
+    background-color: darkslategrey;
+    color: white;
+    border-radius: 15px;
+    box-shadow:
+      rgba(0, 0, 0, 0.25) 0px 54px 55px,
+      rgba(0, 0, 0, 0.12) 0px -12px 30px,
+      rgba(0, 0, 0, 0.12) 0px 4px 6px,
+      rgba(0, 0, 0, 0.17) 0px 12px 13px,
+      rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  }
+
+  .mission {
+    background-color: #003b4b;
+    color: white;
+    border-radius: 15px;
+    box-shadow:
+      rgba(0, 0, 0, 0.25) 0px 54px 55px,
+      rgba(0, 0, 0, 0.12) 0px -12px 30px,
+      rgba(0, 0, 0, 0.12) 0px 4px 6px,
+      rgba(0, 0, 0, 0.17) 0px 12px 13px,
+      rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  }
+
+  .mission-list li {
+    margin: 15px 0;
+  }
+
+  @media only screen and (max-width: 992px) {
+    .vm-content {
+      flex-direction: column;
+    }
+    .mission {
+      margin-top: 20%;
+    }
+  }
+</style>

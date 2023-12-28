@@ -1,0 +1,17 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import Title from "../../components/Title.astro";
+import Cards from "../../components/card/Cards";
+import data from "../../data/staffs/nonTeaching";
+---
+
+<Layout title="Non-teaching Staff">
+  <div class="container mb-5">
+    <Title text="Non-Teaching Staff" />
+    <div class="row">
+      <div class="col-sm-12">
+        <Cards items={data} type="nonTeachingStaff" client:only />
+      </div>
+    </div>
+  </div>
+</Layout>

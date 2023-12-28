@@ -1,0 +1,26 @@
+---
+import Layout from "../../../layouts/Layout.astro";
+import Title from "../../../components/Title.astro";
+import getProfileData from "../../../data/staffs/profile/profileData";
+import Profile from "../../../components/staffProfile/Profile";
+
+export function getStaticPaths() {
+  let staffIds: string[] = [];
+  for (let i = 1; i <= 8; i++) staffIds.push(`c${i}`);
+  for (let i = 1; i <= 5; i++) staffIds.push(`e${i}`);
+  for (let i = 1; i <= 10; i++) staffIds.push(`m${i}`);
+  for (let i = 1; i <= 2; i++) staffIds.push(`p${i}`);
+
+  return staffIds.map((id) => ({ params: { staffId: id } }));
+}
+
+const { staffId } = Astro.params;
+const data = getProfileData(staffId);
+---
+
+<Layout title={data?.personalInfo.name}>
+  <div class="container mb-5">
+    <Title text={data?.personalInfo.name} />
+    <Profile data={data} client:load />
+  </div>
+</Layout>

@@ -1,0 +1,25 @@
+---
+import Title from "../../components/Title.astro";
+import Layout from "../../layouts/Layout.astro";
+import completedResearch from "../../data/research/partTime/completed";
+import ongoingResearch from "../../data/research/partTime/ongoing";
+import TabbedContent from "../../components/tabbedContent/TabbedContent";
+const content = {
+  "Completed Research": completedResearch,
+  "Ongoing Research": ongoingResearch,
+};
+---
+
+<Layout title="Part-Time Research Scholars">
+  <div class="container my-3">
+    <Title text="Part-time Research Scholars" />
+    <div class="my-3">
+      <TabbedContent
+        content={content}
+        defaultTab="Completed Research"
+        contentType="research"
+        client:load
+      />
+    </div>
+  </div>
+</Layout>

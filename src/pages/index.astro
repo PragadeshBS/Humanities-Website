@@ -1,0 +1,17 @@
+---
+import HomeBody from "../components/home/HomeBody.astro";
+import Stats from "../components/home/Stats.jsx";
+import Notification from "../components/notification/Notification";
+import Layout from "../layouts/Layout.astro";
+---
+
+<Layout>
+  <div>
+    <div class="display-5 text-center mt-3">
+      Welcome to the Department of Applied Sciences and Humanities
+    </div>
+    <Notification client:only />
+    <HomeBody />
+    <Stats client:visible />
+  </div>
+</Layout>
