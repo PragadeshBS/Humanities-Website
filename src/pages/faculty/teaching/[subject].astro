@@ -1,0 +1,32 @@
+---
+import FacultyLayout from "../../../layouts/faculty/FacultyLayout.astro";
+import Cardimg from "../../../components/card/Cardimg";
+import TeachingCardContent from "../../../components/card/TeachingCardContent";
+import getStaffsForSubject from "../../../data/staffs/teaching/getStaffs.jsx";
+import "../../../components/card/cardStyles/Card.css";
+import "../../../components/card/cardStyles/CardContent.css";
+import "../../../components/card/cardStyles/CardIcon.css";
+import "../../../components/card/cardStyles/Cardimg.css";
+import "../../../components/card/cardStyles/CardItem.css";
+
+export function getStaticPaths() {
+  const subjects = ["english", "chemistry", "maths", "physics", "tamil"];
+  return subjects.map((subject) => ({ params: { subject } }));
+}
+
+const { subject } = Astro.params;
+const staffs = getStaffsForSubject(subject);
+---
+
+<FacultyLayout title="Teaching Faculty">
+  <div class="cards">
+    {
+      staffs.map((staff) => (
+        <div class={`card my-4 w-100`}>
+          <Cardimg src={staff.image} client:only />
+          <TeachingCardContent content={staff} />
+        </div>
+      ))
+    }
+  </div>
+</FacultyLayout>

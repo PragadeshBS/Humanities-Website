@@ -9,9 +9,6 @@ import {
 
 function TeachingCardContent({ content }) {
   let staff = content;
-  const handleClick = (url) => {
-    window.location.href = url;
-  };
   return (
     <div className="card-row">
       <div className="card-content p-3">
@@ -27,12 +24,11 @@ function TeachingCardContent({ content }) {
                 <FaChevronRight />
               </a>
             ) : (
-              <span
-                style={{ cursor: "pointer", fontSize: "1.3rem" }}
-                onClick={() => handleClick(staff.detailUrl)}
-              >
-                <FaChevronRight />
-              </span>
+              <a href={staff.detailUrl}>
+                <span style={{ cursor: "pointer", fontSize: "1.3rem" }}>
+                  <FaChevronRight />
+                </span>
+              </a>
             )}
           </div>
         )}

@@ -12,7 +12,7 @@ const People = () => {
       </a>
       <ul className="dropdown-menu">
         <li>
-          <a href="/faculty/teaching" className="dropdown-item">
+          <a href="/faculty/teaching/english" className="dropdown-item">
             Faculty
           </a>
         </li>

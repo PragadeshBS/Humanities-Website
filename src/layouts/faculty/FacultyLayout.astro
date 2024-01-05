@@ -1,0 +1,47 @@
+---
+import Layout from "../Layout.astro";
+import Title from "../../components/Title.astro";
+const { title } = Astro.props;
+
+const views = ["english", "chemistry", "maths", "physics", "tamil"];
+const matchingPaths = Astro.url.pathname
+  .split("/")
+  .filter((x) => views.includes(x));
+const curView = matchingPaths.length ? matchingPaths[0] : views[0];
+---
+
+<Layout title={title}>
+  <div class="container mb-5">
+    <Title text="Teaching Staff" />
+    <div class="row">
+      <div class="col-sm-12 col-md-3">
+        <ul class="staff-type">
+          {
+            views.map((view) => {
+              return (
+                <a href={`/faculty/teaching/${view}`}>
+                  <li
+                    class={`fw-bold ${
+                      curView === view ? "activeType" : "inactiveType"
+                    }`}
+                  >
+                    {view.charAt(0).toUpperCase() + view.slice(1)}
+                  </li>
+                </a>
+              );
+            })
+          }
+        </ul>
+      </div>
+      <div class="col-sm-12 col-xl-9">
+        <slot />
+      </div>
+    </div>
+  </div>
+</Layout>
+
+<style>
+  a {
+    text-decoration: none;
+  }
+</style>
